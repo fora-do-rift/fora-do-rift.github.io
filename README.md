@@ -1,5 +1,7 @@
 # Fora do Rift — Mercado CBLOL 2027
 
+[Site](https://janela-cblol.github.io/fora-do-rift/) · [Repositório](https://github.com/janela-cblol/fora-do-rift)
+
 Protótipo funcional offline de um portal de transferências do CBLOL, com três funcionalidades:
 
 1. **Planilha visual** por equipes e rotas, status com cores, filtros e detalhes de jogadores;
@@ -19,7 +21,7 @@ Abra `index.html` em um navegador moderno. Não requer instalação nem servidor
 
 ## Limitações importantes
 
-- Esta é uma **primeira versão local**, não um portal hospedado. Alterações feitas por uma pessoa não aparecem para outra.
+- O site está publicado no GitHub Pages. Alterações feitas pelos visitantes ficam apenas no navegador e não aparecem para outras pessoas.
 - As referências contratuais de 2026 **não** são escalações confirmadas para 2027.
 - Notícias e fontes não se atualizam automaticamente.
 - O status de residência competitiva foi inspirado nos registros de 2026 e precisará de validação para 2027 (nacionalidade não é igual à residência competitiva).
