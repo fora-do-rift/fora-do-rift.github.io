@@ -1,0 +1,50 @@
+{
+  "FURIA": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FFURIA---black.png",
+    "source": "https://lolesports.com/pt-BR/teams/furia",
+    "file": "assets/teams/furia.png",
+    "originalUrl": "https://static.lolesports.com/teams/FURIA---black.png"
+  },
+  "LOUD": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FLogo-LOUD-Esports_Original.png",
+    "source": "https://lolesports.com/pt-BR/teams/loud",
+    "file": "assets/teams/loud.png",
+    "originalUrl": "https://static.lolesports.com/teams/Logo-LOUD-Esports_Original.png"
+  },
+  "Keyd Stars": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1670542079678_vks.png",
+    "source": "https://lolesports.com/pt-BR/teams/vivo-keyd",
+    "file": "assets/teams/keyd-stars.svg",
+    "originalUrl": "https://static.lolesports.com/teams/1670542079678_vks.png",
+    "presentation": "Símbolo do capacete isolado pelo viewBox SVG, sem a marca do patrocinador. Imagem original preservada."
+  },
+  "paiN Gaming": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1674657011011_pain_logo_white.png",
+    "source": "https://lolesports.com/pt-BR/teams/pain-gaming",
+    "file": "assets/teams/pain-gaming.png",
+    "originalUrl": "https://static.lolesports.com/teams/1674657011011_pain_logo_white.png"
+  },
+  "RED Canids": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1671545496840_RED_Canidslogo_square.webp",
+    "source": "https://lolesports.com/pt-BR/teams/red-canids",
+    "file": "assets/teams/red-canids.webp",
+    "originalUrl": "https://static.lolesports.com/teams/1671545496840_RED_Canidslogo_square.webp"
+  },
+  "Fluxo": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1766161431111_LogoColorida.png",
+    "source": "https://lolesports.com/pt-BR/teams/fluxo",
+    "file": "assets/teams/fluxo.png",
+    "originalUrl": "https://static.lolesports.com/teams/1766161431111_LogoColorida.png"
+  },
+  "LOS": {
+    "url": "https://am-a.akamaihd.net/image?resize=128:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1784013312149_LOS-OLaranja.png",
+    "source": "https://lolesports.com/pt-BR/teams/los",
+    "file": "assets/teams/los.png",
+    "originalUrl": "https://static.lolesports.com/teams/1784013312149_LOS-OLaranja.png"
+  },
+  "Leviatán": {
+    "url": "https://cdn-api.pandascore.co/images/team/image/131047/leviatan_esportslogo_profile.png",
+    "source": "https://maisesports.com.br/jogadores/devost",
+    "file": "assets/teams/leviatan.png"
+  }
+}

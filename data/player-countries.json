@@ -1,0 +1,272 @@
+{
+  "kaze": {
+    "name": "Argentina",
+    "code": "ar",
+    "source": "https://maisesports.com.br/jogadores/kaze-lucas-fe"
+  },
+  "sinatra": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/sinatra"
+  },
+  "tatu": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/tatu"
+  },
+  "rabelo": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/rabelo"
+  },
+  "tutsz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/tutsz"
+  },
+  "xyno": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/xyno"
+  },
+  "guigo": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/guigo"
+  },
+  "mireu": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/mireu"
+  },
+  "sarolu": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/sarolu"
+  },
+  "scamber": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/scamber"
+  },
+  "supercleber": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/supercleber"
+  },
+  "uzent": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/uzent"
+  },
+  "zekas": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/zekas"
+  },
+  "disamis": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/disamis"
+  },
+  "ceo": {
+    "name": "Argentina",
+    "code": "ar",
+    "source": "https://maisesports.com.br/jogadores/ceo"
+  },
+  "keine": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/keine"
+  },
+  "namiru": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/namiru"
+  },
+  "cariok": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/cariok"
+  },
+  "buero": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/buero"
+  },
+  "samkz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/samkz"
+  },
+  "qats": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/qats"
+  },
+  "frosty": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/frosty-jose-eduardo-leal"
+  },
+  "zynts": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/zynts"
+  },
+  "marvin": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/marvin"
+  },
+  "fuuu": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/fuuu"
+  },
+  "morttheus": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/morttheus"
+  },
+  "stepz": {
+    "code": "ve",
+    "name": "Venezuela",
+    "source": "https://x.com/SheepEsportsBR/status/2112194797020582175"
+  },
+  "bao": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://lol.fandom.com/wiki/BAO_(Jeong_Hyeon-woo)"
+  },
+  "cody": {
+    "name": "Chile",
+    "code": "cl",
+    "source": "https://maisesports.com.br/jogadores/cody"
+  },
+  "zothve": {
+    "name": "Chile",
+    "code": "cl",
+    "source": "https://maisesports.com.br/jogadores/zothve"
+  },
+  "manel": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/manel"
+  },
+  "curty": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/curty"
+  },
+  "prodelta": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/prodelta"
+  },
+  "hauz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/hauz"
+  },
+  "peach": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/peach"
+  },
+  "momochi": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/momochi"
+  },
+  "ackerman": {
+    "name": "Argentina",
+    "code": "ar",
+    "source": "https://maisesports.com.br/jogadores/ackerman"
+  },
+  "duduhh": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/duduhh"
+  },
+  "trigger": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/trigger-3beff324-1c2a-4075-b388-910f5b881675"
+  },
+  "kuri": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://lol.fandom.com/wiki/Kuri"
+  },
+  "mago": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://www.strafe.com/player/jean-mago-lol-1fd7bd/"
+  },
+  "boal": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://lol.fandom.com/wiki/Boal"
+  },
+  "zay": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://liquipedia.net/leagueoflegends/Zay"
+  },
+  "ayu": {
+    "code": "br",
+    "name": "Brasil",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+  },
+  "jojo": {
+    "code": "br",
+    "name": "Brasil",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+  },
+  "brance": {
+    "code": "br",
+    "name": "Brasil",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+  },
+  "bwipo": {
+    "code": "be",
+    "name": "Bélgica",
+    "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+  },
+  "omon": {
+    "code": "cz",
+    "name": "Tchéquia",
+    "source": "https://liquipedia.net/leagueoflegends/OMON"
+  },
+  "hena": {
+    "code": "kr",
+    "name": "Coreia do Sul",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en"
+  },
+  "jeskla": {
+    "code": "se",
+    "name": "Suécia",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+  },
+  "curse": {
+    "code": "br",
+    "name": "Brasil",
+    "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+  },
+  "zest": {
+    "code": "kr",
+    "name": "Coreia do Sul",
+    "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+  },
+  "feisty": {
+    "code": "kr",
+    "name": "Coreia do Sul",
+    "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+  },
+  "ceos": {
+    "code": "br",
+    "name": "Brasil",
+    "source": "https://maisesports.com.br/jogadores/ceos"
+  }
+}

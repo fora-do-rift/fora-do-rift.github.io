@@ -1,0 +1,249 @@
+{
+  "reviewedAt": "2026-11-05",
+  "method": "Artigos das fontes indicadas, respostas contextualizadas do Showtana, contratos e anúncio oficial da Keyd. Contrato não é garantia de escalação.",
+  "teams": [
+    {
+      "team": "Keyd Stars",
+      "summary": "Disamis e Morttheus confirmados por respostas categóricas do Showtana. Xyno segue como possibilidade. Scamber saiu oficialmente em 04/11; testes incluem suporte.",
+      "sources": [
+        "disamisReply",
+        "morttheusReply",
+        "xyno",
+        "xynoBuy",
+        "scamberExit",
+        "keydTryoutSup"
+      ]
+    },
+    {
+      "team": "FURIA",
+      "summary": "Tatu tem compra oficial e vínculo até 2027. Tutsz também tem vínculo até 2027, sem novo anúncio de escalação. Ayu é Agente Livre na visão de 2027 e tem renovação provável, sem acordo. Xyno é interesse e frosty tem proposta de compra.",
+      "sources": [
+        "tatuOfficial",
+        "frosty",
+        "ayuReply",
+        "ayuMarket",
+        "xyno"
+      ]
+    },
+    {
+      "team": "paiN Gaming",
+      "summary": "Boal tem contrato até 2027. Ceos e Namiru têm continuidade prevista como projeção da resposta sobre mudanças em jungle e ADC. Consulta por frosty permanece documentada. Bwipo, Ayu e ceo são interesses; Ceos (SUP) e ceo (ADC) são pessoas diferentes.",
+      "sources": [
+        "contractReview",
+        "painReply",
+        "frosty",
+        "pain",
+        "painMais"
+      ]
+    },
+    {
+      "team": "LOUD",
+      "summary": "Bwipo conversou sobre possível chegada, sem acordo. Kaze/uZent têm vínculo até 2027 e Sinatra/Rabelo até 2028; nenhum novo anúncio de permanência individual foi localizado. Mudanças dependem do novo treinador; Xyno segue em negociação de compra.",
+      "sources": [
+        "bwipoLoudReply",
+        "contractReview",
+        "loudCoach",
+        "xynoBuy"
+      ]
+    },
+    {
+      "team": "RED Canids",
+      "summary": "Bwipo em negociação, não acordo encaminhado. Brance tem proposta, Mireu e OMON são opções. Manel tem vínculo até 2027. STEPZ e Fuuu seguem indefinidos na Central; Morttheus sai da planilha da RED.",
+      "sources": [
+        "bwipo",
+        "bwipoRedReply",
+        "brance",
+        "mids",
+        "stepz",
+        "contractReview",
+        "frosty"
+      ]
+    },
+    {
+      "team": "Fluxo",
+      "summary": "Guigo e CarioK são interesses; Brance tem proposta. Momochi tem permanência esperada. Showtana vê boas chances de cody ficar, mas ele avaliará o mercado.",
+      "sources": [
+        "fluxo",
+        "brance",
+        "codyReply"
+      ]
+    },
+    {
+      "team": "LOS",
+      "summary": "Curse e Duduhh são apontados como garantidos para 2027 e têm vínculo até 15/11/2027. Kakavel deseja renovar com Zest, Feisty e Ackerman, ainda sem confirmação.",
+      "sources": [
+        "los",
+        "losRenew",
+        "contractReview"
+      ]
+    },
+    {
+      "team": "Leviatán",
+      "summary": "Nenhuma chegada, renovação ou permanência de LoL para 2027 verificada nas fontes. Contratos que vencem em 2026 não foram convertidos em rumores de renovação. Notícias de VALORANT foram excluídas.",
+      "sources": [],
+      "checked": [
+        "https://www.sheepesports.com/us/all/transfers/cblol?tool=transfers",
+        "https://www.sheepesports.com/de/articles/cblol-all-players-out-of-contract-in-2026/en",
+        "https://x.com/luisshowtana/status/2115483802206347662"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "seed-disamis-keyd",
+      "before": {
+        "status": "previsto",
+        "title": "Keyd planeja manter Disamis",
+        "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027"
+      },
+      "after": {
+        "status": "confirmado",
+        "title": "Showtana descarta saída de Disamis da Keyd",
+        "source": "https://x.com/luisshowtana/status/2118026731986858362"
+      }
+    },
+    {
+      "id": "seed-morttheus-keyd",
+      "before": {
+        "status": "previsto",
+        "title": "Morttheus tem retorno previsto à Keyd",
+        "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+      },
+      "after": {
+        "status": "confirmado",
+        "title": "Showtana confirma retorno de Morttheus à Keyd",
+        "source": "https://x.com/luisshowtana/status/2118037252345340250"
+      }
+    },
+    {
+      "id": "seed-scamber-keyd",
+      "before": {
+        "status": "previsto",
+        "title": "Keyd planeja manter scamber",
+        "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027"
+      },
+      "after": {
+        "status": "saindo",
+        "title": "Keyd anuncia saída de scamber",
+        "source": "https://x.com/VivoKeyd/status/2118085941340352565"
+      }
+    },
+    {
+      "id": "seed-ayu-furia",
+      "before": {
+        "status": "interesse",
+        "title": "FURIA prioriza renovar com Ayu",
+        "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027"
+      },
+      "after": {
+        "status": "previsto",
+        "title": "Renovação de Ayu com a FURIA é considerada provável",
+        "source": "https://x.com/luisshowtana/status/2118037376161169506"
+      }
+    },
+    {
+      "id": "seed-bwipo-loud",
+      "before": {
+        "status": "oferecido",
+        "title": "Bwipo se oferece à LOUD",
+        "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+      },
+      "after": {
+        "status": "encaminhado",
+        "title": "Bwipo conversa com a LOUD sobre uma possível chegada",
+        "source": "https://x.com/luisshowtana/status/2118026089784119626"
+      }
+    },
+    {
+      "id": "seed-bwipo-red",
+      "before": {
+        "status": "encaminhado",
+        "title": "RED negocia com Bwipo para a jungle",
+        "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+      },
+      "after": {
+        "status": "encaminhado",
+        "title": "RED negocia com Bwipo para a jungle",
+        "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+      }
+    },
+    {
+      "id": "seed-keyd-tryouts",
+      "before": {
+        "status": "indefinido",
+        "title": "Keyd realiza tryouts",
+        "source": "https://x.com/luisshowtana/status/2118036782679732538"
+      },
+      "after": {
+        "status": "indefinido",
+        "title": "Keyd realiza tryouts",
+        "source": "https://x.com/luisshowtana/status/2118036782679732538"
+      }
+    },
+    {
+      "id": "seed-curse-los",
+      "before": {
+        "status": "previsto",
+        "title": "Curse é apontado como permanência na LOS",
+        "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+      },
+      "after": {
+        "status": "confirmado",
+        "title": "Curse é apontado como garantido na LOS para 2027",
+        "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+      }
+    },
+    {
+      "id": "seed-duduhh-los",
+      "before": {
+        "status": "previsto",
+        "title": "Duduhh é apontado como permanência na LOS",
+        "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+      },
+      "after": {
+        "status": "confirmado",
+        "title": "Duduhh é apontado como garantido na LOS para 2027",
+        "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+      }
+    },
+    {
+      "id": "seed-zest-los",
+      "before": {
+        "status": "indefinido",
+        "title": "LOS deseja manter Zest",
+        "source": "https://x.com/SheepEsportsBR/status/2117731160340246652"
+      },
+      "after": {
+        "status": "interesse",
+        "title": "LOS quer renovar com Zest",
+        "source": "https://x.com/SheepEsportsBR/status/2117731160340246652"
+      }
+    },
+    {
+      "id": "seed-feisty-los",
+      "before": {
+        "status": "indefinido",
+        "title": "LOS deseja manter Feisty",
+        "source": "https://x.com/SheepEsportsBR/status/2117731160340246652"
+      },
+      "after": {
+        "status": "interesse",
+        "title": "LOS quer renovar com Feisty",
+        "source": "https://x.com/SheepEsportsBR/status/2117731160340246652"
+      }
+    },
+    {
+      "id": "seed-ackerman-los",
+      "before": {
+        "status": "indefinido",
+        "title": "LOS deseja manter Ackerman",
+        "source": "https://x.com/SheepEsportsBR/status/2117731160340246652"
+      },
+      "after": {
+        "status": "interesse",
+        "title": "LOS quer renovar com Ackerman",
+        "source": "https://x.com/SheepEsportsBR/status/2117731160340246652"
+      }
+    }
+  ]
+}

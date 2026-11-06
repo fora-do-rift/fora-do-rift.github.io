@@ -1,0 +1,243 @@
+{
+  "reviewedAt": "2026-11-05",
+  "addedPlayers": [
+    {
+      "id": "ayu",
+      "name": "Ayu",
+      "team": "FURIA",
+      "lane": "ADC",
+      "residency": "BR",
+      "end": "2026",
+      "country": {
+        "code": "br",
+        "name": "Brasil",
+        "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+      },
+      "contractTeam": "FURIA",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+    },
+    {
+      "id": "jojo",
+      "name": "JoJo",
+      "team": "FURIA",
+      "lane": "SUP",
+      "residency": "BR",
+      "end": "2026",
+      "country": {
+        "code": "br",
+        "name": "Brasil",
+        "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+      },
+      "contractTeam": "FURIA",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+    },
+    {
+      "id": "brance",
+      "name": "Brance",
+      "team": "Estral Esports",
+      "lane": "ADC",
+      "residency": "BR",
+      "end": "16/11/2026",
+      "country": {
+        "code": "br",
+        "name": "Brasil",
+        "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+      },
+      "contractTeam": "Estral Esports",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+    },
+    {
+      "id": "bwipo",
+      "name": "Bwipo",
+      "team": "Estral Esports",
+      "lane": "JNG",
+      "residency": "IMPORT",
+      "end": "",
+      "country": {
+        "code": "be",
+        "name": "Bélgica",
+        "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+      },
+      "contractTeam": "Estral Esports",
+      "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+    },
+    {
+      "id": "omon",
+      "name": "OMON",
+      "team": "Galions",
+      "lane": "MID",
+      "residency": "IMPORT",
+      "end": "",
+      "country": {
+        "code": "cz",
+        "name": "Tchéquia",
+        "source": "https://liquipedia.net/leagueoflegends/OMON"
+      },
+      "contractTeam": "Galions",
+      "source": "https://liquipedia.net/leagueoflegends/OMON"
+    },
+    {
+      "id": "hena",
+      "name": "Hena",
+      "team": "paiN Gaming",
+      "lane": "ADC",
+      "residency": "IMPORT",
+      "end": "",
+      "country": {
+        "code": "kr",
+        "name": "Coreia do Sul",
+        "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en"
+      },
+      "contractTeam": "paiN Gaming",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en"
+    },
+    {
+      "id": "jeskla",
+      "name": "Jeskla",
+      "team": "Keyd Stars",
+      "lane": "ADC",
+      "residency": "IMPORT",
+      "end": "",
+      "country": {
+        "code": "se",
+        "name": "Suécia",
+        "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+      },
+      "contractTeam": "Keyd Stars",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+    },
+    {
+      "id": "curse",
+      "name": "Curse",
+      "team": "LOS",
+      "lane": "JNG",
+      "residency": "BR",
+      "end": "",
+      "country": {
+        "code": "br",
+        "name": "Brasil",
+        "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+      },
+      "contractTeam": "LOS",
+      "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+    },
+    {
+      "id": "zest",
+      "name": "Zest",
+      "team": "LOS",
+      "lane": "TOP",
+      "residency": "IMPORT",
+      "end": "2026",
+      "country": {
+        "code": "kr",
+        "name": "Coreia do Sul",
+        "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+      },
+      "contractTeam": "LOS",
+      "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+    },
+    {
+      "id": "feisty",
+      "name": "Feisty",
+      "team": "LOS",
+      "lane": "MID",
+      "residency": "IMPORT",
+      "end": "2026",
+      "country": {
+        "code": "kr",
+        "name": "Coreia do Sul",
+        "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+      },
+      "contractTeam": "LOS",
+      "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+    },
+    {
+      "id": "ceos",
+      "name": "Ceos",
+      "team": "paiN Gaming",
+      "lane": "SUP",
+      "residency": "BR",
+      "end": "",
+      "contractTeam": "paiN Gaming",
+      "country": {
+        "code": "br",
+        "name": "Brasil",
+        "source": "https://maisesports.com.br/jogadores/ceos"
+      },
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+      "contractNote": "A Sheep informa que Ceos disputou a última etapa pela paiN, mas que o prazo do contrato não aparece no GCD. Não confundir com ceo, ADC argentino."
+    }
+  ],
+  "corrections": {
+    "xyno": {
+      "end": "2027",
+      "contractTeam": "Keyd Stars",
+      "contractTeamShort": "Keyd",
+      "loanTeam": "LOUD",
+      "loanEnd": "16/11/2026",
+      "contractNote": "Showtana reportou em 30/10/2026 o contrato com a Keyd até 2027 e a proposta de compra da LOUD. A listagem anterior de 2026 permanece apenas como histórico.",
+      "source": "https://x.com/luisshowtana/status/2116216739079836116",
+      "loanSource": "https://x.com/luisshowtana/status/2116216739079836116"
+    },
+    "morttheus": {
+      "end": "2028",
+      "contractTeam": "Keyd Stars",
+      "contractTeamShort": "Keyd",
+      "loanTeam": "RED Canids",
+      "loanEnd": "2026",
+      "contractNote": "Contrato com a Keyd até 2028, segundo a Sheep em 04/11/2026. A RED não deve exercer a compra e o retorno é previsto para 2027.",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "loanSource": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en"
+    },
+    "mireu": {
+      "end": "",
+      "contractTeam": "Sem vínculo informado",
+      "contractState": "livre",
+      "source": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+      "contractNote": "Saída anunciada em 06/10; reportado como livre no mercado em 02/11/2026. O antigo término em 2027 não representa um vínculo vigente."
+    },
+    "ceo": {
+      "end": "",
+      "contractTeam": "Sem vínculo informado",
+      "contractState": "livre",
+      "source": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+      "contractNote": "Reportado sem contrato em 01/11/2026."
+    },
+    "zekas": {
+      "end": "",
+      "contractTeam": "Não informado",
+      "contractNote": "Saída anunciada em 06/10/2026; não há novo vínculo confirmado nas fontes consultadas.",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+    },
+    "jeskla": {
+      "end": "",
+      "contractTeam": "Não informado",
+      "contractNote": "Saída anunciada em 06/10/2026; não há novo vínculo confirmado nas fontes consultadas.",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+    },
+    "bwipo": {
+      "end": "",
+      "contractTeam": "Sem vínculo informado",
+      "contractState": "livre",
+      "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+      "contractNote": "Reportado como livre no mercado pela Sheep em 22/10/2026."
+    },
+    "stepz": {
+      "country": {
+        "code": "ve",
+        "name": "Venezuela",
+        "source": "https://x.com/SheepEsportsBR/status/2112194797020582175"
+      }
+    },
+    "curse": {
+      "end": "15/11/2027",
+      "source": "https://maisesports.com.br/contratos/league-of-legends"
+    },
+    "scamber": {
+      "end": "",
+      "contractTeam": "Não informado",
+      "contractNote": "A Keyd anunciou sua saída em 04/11/2026. Não há novo vínculo confirmado nas fontes consultadas.",
+      "source": "https://x.com/VivoKeyd/status/2118085941340352565"
+    }
+  }
+}

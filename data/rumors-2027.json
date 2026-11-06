@@ -1,0 +1,1397 @@
+{
+  "reviewedAt": "2026-11-05",
+  "trustedSources": [
+    {
+      "handle": "@SheepEsportsBR",
+      "url": "https://x.com/SheepEsportsBR",
+      "publisher": "Sheep Esports"
+    },
+    {
+      "handle": "@luisshowtana",
+      "url": "https://x.com/luisshowtana",
+      "publisher": "Showtana"
+    },
+    {
+      "handle": "@maisesportsbr",
+      "url": "https://x.com/maisesportsbr",
+      "publisher": "Mais Esports"
+    },
+    {
+      "handle": "@Correslol",
+      "url": "https://x.com/Correslol",
+      "publisher": "Sérgio Fiorini"
+    }
+  ],
+  "sources": {
+    "xyno": {
+      "date": "30/10/2026",
+      "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+    },
+    "xynoBuy": {
+      "date": "30/10/2026",
+      "url": "https://x.com/luisshowtana/status/2116216739079836116",
+      "author": "Showtana (@luisshowtana)"
+    },
+    "frosty": {
+      "date": "05/11/2026",
+      "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+      "author": "Showtana / Sheep Esports"
+    },
+    "brance": {
+      "date": "04/11/2026",
+      "url": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "author": "Showtana / Sheep Esports"
+    },
+    "pain": {
+      "date": "04/11/2026",
+      "url": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+      "author": "Showtana / Sheep Esports"
+    },
+    "fluxo": {
+      "date": "28/10/2026",
+      "url": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+      "author": "Showtana / Sheep Esports"
+    },
+    "bwipo": {
+      "date": "22/10/2026",
+      "url": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+      "author": "Showtana e Bruna Andrade / Sheep Esports"
+    },
+    "morttheus": {
+      "date": "14/10/2026",
+      "url": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en",
+      "author": "Showtana e Bruna Andrade / Sheep Esports"
+    },
+    "stepz": {
+      "date": "19/10/2026",
+      "url": "https://maisesports.com.br/cblol-2026-stepz-tem-futuro-incerto-na-red-canids-diz-site",
+      "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports"
+    },
+    "mids": {
+      "date": "02/11/2026",
+      "url": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+      "author": "Sheep Esports Brasil"
+    },
+    "los": {
+      "date": "02/11/2026",
+      "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+      "author": "Sheep Esports Brasil"
+    },
+    "losRenew": {
+      "date": "03/11/2026",
+      "url": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+      "author": "Sheep Esports Brasil / declaração de Kakavel no MD3"
+    },
+    "keyd": {
+      "date": "06/10/2026",
+      "url": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+      "author": "Sheep Esports Brasil / anúncio da Keyd Stars"
+    },
+    "ceo": {
+      "date": "01/11/2026",
+      "url": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+      "author": "Sheep Esports Brasil"
+    },
+    "raise": {
+      "date": "05/11/2026",
+      "url": "https://x.com/maisesportsbr/status/2118464641013862607",
+      "author": "Mais Esports / anúncio da LOUD"
+    },
+    "loudCoach": {
+      "date": "05/11/2026",
+      "url": "https://x.com/luisshowtana/status/2118465209283272767",
+      "author": "Showtana (@luisshowtana)"
+    },
+    "tryouts": {
+      "date": "04/11/2026",
+      "url": "https://x.com/luisshowtana/status/2118036782679732538",
+      "author": "Showtana (@luisshowtana)"
+    },
+    "academy": {
+      "date": "13/10/2026",
+      "url": "https://x.com/maisesportsbr/status/2110029098051310026",
+      "author": "Mais Esports / anúncio da Keyd Stars"
+    },
+    "croc": {
+      "date": "07/10/2026",
+      "url": "https://x.com/SheepEsportsBR/status/2107863578191569017",
+      "author": "Sheep Esports Brasil / declaração de Croc"
+    },
+    "painMais": {
+      "date": "04/11/2026",
+      "url": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+      "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports"
+    },
+    "disamisReply": {
+      "url": "https://x.com/luisshowtana/status/2118026731986858362",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Resposta sobre a possibilidade de Disamis sair da Keyd"
+    },
+    "morttheusReply": {
+      "url": "https://x.com/luisshowtana/status/2118037252345340250",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Resposta confirmando o retorno de Morttheus à Keyd"
+    },
+    "ayuReply": {
+      "url": "https://x.com/luisshowtana/status/2118037376161169506",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Resposta sobre renovação de Ayu com a FURIA"
+    },
+    "ayuMarket": {
+      "url": "https://x.com/luisshowtana/status/2118025538681905403",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Ayu vai avaliar projetos no mercado"
+    },
+    "painReply": {
+      "url": "https://x.com/luisshowtana/status/2118037871508795566",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Resposta sobre mudanças da paiN apenas na jungle e ADC"
+    },
+    "bwipoLoudReply": {
+      "url": "https://x.com/luisshowtana/status/2118026089784119626",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Bwipo conversou com a LOUD sobre uma possível chegada"
+    },
+    "bwipoRedReply": {
+      "url": "https://x.com/luisshowtana/status/2113325552165662722",
+      "date": "22/10/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Negociação da RED não é acordo encaminhado"
+    },
+    "codyReply": {
+      "url": "https://x.com/luisshowtana/status/2118109867210944925",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Chances de cody permanecer no Fluxo"
+    },
+    "scamberExit": {
+      "url": "https://x.com/VivoKeyd/status/2118085941340352565",
+      "date": "04/11/2026",
+      "author": "Keyd Stars — anúncio oficial",
+      "title": "Despedida de scamber"
+    },
+    "contractReview": {
+      "url": "https://maisesports.com.br/contratos/league-of-legends",
+      "date": "05/11/2026",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+    },
+    "tatuOfficial": {
+      "url": "https://maisesports.com.br/lta-sul-2025-jornalista-revela-valor-estimado-da-transferencia-de-tatu",
+      "date": "21/08/2025",
+      "author": "Ian Teixeira / Mais Esports — anúncio da FURIA",
+      "title": "Compra definitiva de Tatu até 2027"
+    },
+    "keydTryoutSup": {
+      "url": "https://x.com/luisshowtana/status/2118058335329308786",
+      "date": "04/11/2026",
+      "author": "Showtana (@luisshowtana)",
+      "title": "Correção: a Keyd também faz testes de suporte"
+    }
+  },
+  "movements": [
+    {
+      "id": "seed-xyno-1",
+      "player": "Xyno",
+      "team": "LOUD",
+      "lane": "TOP",
+      "status": "encaminhado",
+      "title": "LOUD negocia a compra de Xyno",
+      "description": "A LOUD segue negociando. Showtana relata proposta de compra à Keyd e divergência inicial sobre o modelo do negócio. Não há acordo anunciado.",
+      "date": "30/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+      "sourceKey": "xyno",
+      "relatedSources": [
+        {
+          "date": "30/10/2026",
+          "url": "https://x.com/luisshowtana/status/2116216739079836116",
+          "author": "Showtana (@luisshowtana)"
+        },
+        {
+          "date": "05/11/2026",
+          "url": "https://x.com/luisshowtana/status/2118465209283272767",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "movementType": "compra",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-xyno-2",
+      "player": "Xyno",
+      "team": "FURIA",
+      "lane": "TOP",
+      "status": "interesse",
+      "title": "FURIA prioriza Xyno para o topo",
+      "description": "Correslol aponta Xyno como alvo. A situação depende da negociação LOUD–Keyd; interesse não significa liberação ou acordo.",
+      "date": "30/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+      "sourceKey": "xyno",
+      "relatedSources": [
+        {
+          "date": "30/10/2026",
+          "url": "https://x.com/luisshowtana/status/2116216739079836116",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-xyno-3",
+      "player": "Xyno",
+      "team": "Keyd Stars",
+      "lane": "TOP",
+      "status": "interesse",
+      "title": "Keyd quer contar com Xyno",
+      "description": "A Keyd considera seu retorno. Segundo Showtana, se a LOUD desistir da compra, a Keyd exige a multa integral para negociá-lo.",
+      "date": "30/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+      "sourceKey": "xyno",
+      "relatedSources": [
+        {
+          "date": "30/10/2026",
+          "url": "https://x.com/luisshowtana/status/2116216739079836116",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "movementType": "retorno",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-frosty-furia",
+      "player": "frosty",
+      "team": "FURIA",
+      "lane": "SUP",
+      "status": "encaminhado",
+      "title": "FURIA apresenta proposta por frosty",
+      "description": "A FURIA enviou proposta de compra à RED. A reportagem não informa aceite ou contratação concluída.",
+      "date": "05/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "frosty",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-frosty-pain",
+      "player": "frosty",
+      "team": "paiN Gaming",
+      "lane": "SUP",
+      "status": "interesse",
+      "title": "paiN consulta frosty",
+      "description": "A paiN consultou a situação do suporte, sem apresentar proposta oficial até a publicação.",
+      "date": "05/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "frosty",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-jojo-furia",
+      "player": "JoJo",
+      "team": "FURIA",
+      "lane": "SUP",
+      "status": "saindo",
+      "title": "Saída de JoJo é apontada como iminente",
+      "description": "Apesar da preferência de JoJo por renovar, a FURIA procura outro suporte. Saída reportada, ainda sem anúncio; aposentadoria não é esperada.",
+      "date": "05/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "frosty",
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-brance-red",
+      "player": "Brance",
+      "team": "RED Canids",
+      "lane": "ADC",
+      "status": "encaminhado",
+      "title": "RED Canids apresenta proposta por Brance",
+      "description": "Brance recebeu proposta da organização. Há concorrência entre RED e Fluxo; a reportagem não aponta acordo fechado.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "brance",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-brance-fluxo",
+      "player": "Brance",
+      "team": "Fluxo",
+      "lane": "ADC",
+      "status": "encaminhado",
+      "title": "Fluxo apresenta proposta por Brance",
+      "description": "Brance recebeu proposta da organização. Há concorrência entre RED e Fluxo; a reportagem não aponta acordo fechado.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "brance",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-guigo-fluxo",
+      "player": "Guigo",
+      "team": "Fluxo",
+      "lane": "TOP",
+      "status": "interesse",
+      "title": "Fluxo tem interesse em Guigo",
+      "description": "A organização monitora o jogador para 2027 e pretende avançar conversas. Não há contratação confirmada.",
+      "date": "28/10/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "fluxo",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-cariok-fluxo",
+      "player": "CarioK",
+      "team": "Fluxo",
+      "lane": "JNG",
+      "status": "interesse",
+      "title": "Fluxo tem interesse em CarioK",
+      "description": "A organização monitora o jogador para 2027 e pretende avançar conversas. Não há contratação confirmada.",
+      "date": "28/10/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "fluxo",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-momochi-fluxo",
+      "player": "Momochi",
+      "team": "Fluxo",
+      "lane": "SUP",
+      "status": "previsto",
+      "title": "Fluxo espera manter Momochi",
+      "description": "A reportagem aponta expectativa de permanência do suporte; não há renovação oficial anunciada.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "brance",
+      "relatedSources": [
+        {
+          "date": "28/10/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+          "author": "Showtana / Sheep Esports"
+        }
+      ],
+      "movementType": "permanencia",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-morttheus-red",
+      "player": "Morttheus",
+      "team": "RED Canids",
+      "lane": "ADC",
+      "status": "saindo",
+      "title": "Morttheus deve encerrar empréstimo na RED",
+      "description": "A RED decidiu não exercer a compra. O retorno à Keyd é reportado para a próxima temporada.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "brance",
+      "relatedSources": [
+        {
+          "date": "14/10/2026",
+          "url": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en",
+          "author": "Showtana e Bruna Andrade / Sheep Esports"
+        }
+      ],
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-morttheus-keyd",
+      "player": "Morttheus",
+      "team": "Keyd Stars",
+      "lane": "ADC",
+      "status": "confirmado",
+      "title": "Showtana confirma retorno de Morttheus à Keyd",
+      "description": "Ao ser perguntado se Morttheus já era da Keyd para 2027, Showtana respondeu afirmativamente. Confirmação jornalística do retorno, sem novo anúncio oficial identificado.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118037252345340250",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "morttheusReply",
+      "relatedSources": [
+        {
+          "date": "04/11/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+          "author": "Showtana / Sheep Esports"
+        },
+        {
+          "date": "14/10/2026",
+          "url": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en",
+          "author": "Showtana e Bruna Andrade / Sheep Esports"
+        }
+      ],
+      "movementType": "retorno",
+      "evidenceKind": "apuracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-bwipo-red",
+      "player": "Bwipo",
+      "team": "RED Canids",
+      "lane": "JNG",
+      "status": "encaminhado",
+      "title": "RED negocia com Bwipo para a jungle",
+      "description": "A RED negocia com Bwipo para a jungle. Showtana esclareceu que o acordo não está encaminhado; negociação em andamento não equivale a contratação fechada.",
+      "date": "22/10/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+      "author": "Showtana e Bruna Andrade / Sheep Esports",
+      "sourceKey": "bwipo",
+      "relatedSources": [
+        {
+          "url": "https://x.com/luisshowtana/status/2113325552165662722",
+          "date": "22/10/2026",
+          "author": "Showtana (@luisshowtana)",
+          "title": "Negociação da RED não é acordo encaminhado"
+        },
+        {
+          "date": "04/11/2026",
+          "url": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+          "author": "Showtana / Sheep Esports"
+        }
+      ],
+      "movementType": "chegada",
+      "evidenceKind": "apuracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-bwipo-loud",
+      "player": "Bwipo",
+      "team": "LOUD",
+      "lane": "JNG",
+      "status": "encaminhado",
+      "title": "Bwipo conversa com a LOUD sobre uma possível chegada",
+      "description": "Showtana informou que Bwipo conversou com a LOUD. O card passa de oferecido a conversas/negociação inicial; não há proposta aceita ou acordo. Depois, o jornalista condicionou mudanças ao novo treinador.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118026089784119626",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "bwipoLoudReply",
+      "relatedSources": [
+        {
+          "date": "22/10/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+          "author": "Showtana e Bruna Andrade / Sheep Esports"
+        },
+        {
+          "date": "05/11/2026",
+          "url": "https://x.com/luisshowtana/status/2118465209283272767",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "movementType": "chegada",
+      "evidenceKind": "conversa",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-stepz-red",
+      "player": "STEPZ",
+      "team": "RED Canids",
+      "lane": "JNG",
+      "status": "indefinido",
+      "title": "Futuro de STEPZ segue indefinido",
+      "description": "Dificuldades com vistos e impasse na renegociação levaram a RED a avaliar alternativas. Saída não confirmada.",
+      "date": "19/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-stepz-tem-futuro-incerto-na-red-canids-diz-site",
+      "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports",
+      "sourceKey": "stepz",
+      "relatedSources": [
+        {
+          "date": "04/11/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+          "author": "Showtana / Sheep Esports"
+        }
+      ],
+      "movementType": "indefinido",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-bwipo-pain",
+      "player": "Bwipo",
+      "team": "paiN Gaming",
+      "lane": "JNG",
+      "status": "interesse",
+      "title": "paiN consulta Bwipo",
+      "description": "O jogador é uma opção consultada para a reformulação de 2027. Não há proposta aceita ou contratação anunciada.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "pain",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-ayu-pain",
+      "player": "Ayu",
+      "team": "paiN Gaming",
+      "lane": "ADC",
+      "status": "interesse",
+      "title": "paiN consulta Ayu",
+      "description": "O jogador é uma opção consultada para a reformulação de 2027. Não há proposta aceita ou contratação anunciada.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "pain",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-ceo-pain",
+      "player": "ceo",
+      "team": "paiN Gaming",
+      "lane": "ADC",
+      "status": "interesse",
+      "title": "paiN consulta ceo",
+      "description": "O jogador é uma opção consultada para a reformulação de 2027. Não há proposta aceita ou contratação anunciada.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "pain",
+      "relatedSources": [
+        {
+          "date": "01/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+          "author": "Sheep Esports Brasil"
+        }
+      ],
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-hena-pain",
+      "player": "Hena",
+      "team": "paiN Gaming",
+      "lane": "ADC",
+      "status": "saindo",
+      "title": "Hena não deve seguir na paiN",
+      "description": "A Sheep aponta a saída do ADC; a organização busca substituto. Trata-se de informação reportada, sem anúncio oficial nesta ficha.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "pain",
+      "relatedSources": [
+        {
+          "date": "04/11/2026",
+          "url": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+          "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports"
+        }
+      ],
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-cariok-pain",
+      "player": "CarioK",
+      "team": "paiN Gaming",
+      "lane": "JNG",
+      "status": "indefinido",
+      "title": "Permanência de CarioK é considerada improvável",
+      "description": "A Sheep considera baixas as chances de continuidade na paiN. Não há saída oficial nem destino confirmado.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "pain",
+      "movementType": "indefinido",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-mireu-red",
+      "player": "Mireu",
+      "team": "RED Canids",
+      "lane": "MID",
+      "status": "interesse",
+      "title": "RED avalia Mireu",
+      "description": "Mireu, livre no mercado, é o nome mais bem avaliado pela RED para o meio segundo a publicação.",
+      "date": "02/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+      "author": "Sheep Esports Brasil",
+      "sourceKey": "mids",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-omon-red",
+      "player": "OMON",
+      "team": "RED Canids",
+      "lane": "MID",
+      "status": "interesse",
+      "title": "RED consulta OMON",
+      "description": "A RED consultou o mid da Galions, mas a possibilidade de uma vaga na LEC dificulta a abordagem.",
+      "date": "02/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+      "author": "Sheep Esports Brasil",
+      "sourceKey": "mids",
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-fuuu-red",
+      "player": "Fuuu",
+      "team": "RED Canids",
+      "lane": "MID",
+      "status": "indefinido",
+      "title": "RED avalia alternativas a Fuuu",
+      "description": "Fuuu não foi descartado, mas a equipe procura opções para a posição. Sua continuidade como titular permanece indefinida.",
+      "date": "04/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "brance",
+      "relatedSources": [
+        {
+          "date": "02/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+          "author": "Sheep Esports Brasil"
+        }
+      ],
+      "movementType": "indefinido",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-zest-los",
+      "player": "Zest",
+      "team": "LOS",
+      "lane": "TOP",
+      "status": "interesse",
+      "title": "LOS quer renovar com Zest",
+      "description": "Kakavel declarou que deseja manter todo o elenco. A renovação deste jogador ainda está em aberto; o card indica intenção de renovar, não permanência confirmada.",
+      "date": "03/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+      "author": "Sheep Esports Brasil / declaração de Kakavel no MD3",
+      "sourceKey": "losRenew",
+      "relatedSources": [
+        {
+          "date": "02/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+          "author": "Sheep Esports Brasil"
+        }
+      ],
+      "movementType": "renovacao",
+      "evidenceKind": "declaracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-feisty-los",
+      "player": "Feisty",
+      "team": "LOS",
+      "lane": "MID",
+      "status": "interesse",
+      "title": "LOS quer renovar com Feisty",
+      "description": "Kakavel declarou que deseja manter todo o elenco. A renovação deste jogador ainda está em aberto; o card indica intenção de renovar, não permanência confirmada.",
+      "date": "03/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+      "author": "Sheep Esports Brasil / declaração de Kakavel no MD3",
+      "sourceKey": "losRenew",
+      "relatedSources": [
+        {
+          "date": "02/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+          "author": "Sheep Esports Brasil"
+        }
+      ],
+      "movementType": "renovacao",
+      "evidenceKind": "declaracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-ackerman-los",
+      "player": "Ackerman",
+      "team": "LOS",
+      "lane": "SUP",
+      "status": "interesse",
+      "title": "LOS quer renovar com Ackerman",
+      "description": "Kakavel declarou que deseja manter todo o elenco. A renovação deste jogador ainda está em aberto; o card indica intenção de renovar, não permanência confirmada.",
+      "date": "03/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+      "author": "Sheep Esports Brasil / declaração de Kakavel no MD3",
+      "sourceKey": "losRenew",
+      "relatedSources": [
+        {
+          "date": "02/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+          "author": "Sheep Esports Brasil"
+        }
+      ],
+      "movementType": "renovacao",
+      "evidenceKind": "declaracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-curse-los",
+      "player": "Curse",
+      "team": "LOS",
+      "lane": "JNG",
+      "status": "confirmado",
+      "title": "Curse é apontado como garantido na LOS para 2027",
+      "description": "A Sheep aponta o jogador como garantido para 2027. O registro de contratos lista término em 15/11/2027. A ficha distingue a apuração de um novo anúncio de renovação.",
+      "date": "02/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+      "author": "Sheep Esports Brasil",
+      "sourceKey": "los",
+      "relatedSources": [
+        {
+          "url": "https://maisesports.com.br/contratos/league-of-legends",
+          "date": "05/11/2026",
+          "author": "Mais Esports — consulta ao registro de contratos",
+          "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+        },
+        {
+          "date": "03/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+          "author": "Sheep Esports Brasil / declaração de Kakavel no MD3"
+        }
+      ],
+      "movementType": "permanencia",
+      "evidenceKind": "apuracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-duduhh-los",
+      "player": "Duduhh",
+      "team": "LOS",
+      "lane": "ADC",
+      "status": "confirmado",
+      "title": "Duduhh é apontado como garantido na LOS para 2027",
+      "description": "A Sheep aponta o jogador como garantido para 2027. O registro de contratos lista término em 15/11/2027. A ficha distingue a apuração de um novo anúncio de renovação.",
+      "date": "02/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+      "author": "Sheep Esports Brasil",
+      "sourceKey": "los",
+      "relatedSources": [
+        {
+          "url": "https://maisesports.com.br/contratos/league-of-legends",
+          "date": "05/11/2026",
+          "author": "Mais Esports — consulta ao registro de contratos",
+          "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+        },
+        {
+          "date": "03/11/2026",
+          "url": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+          "author": "Sheep Esports Brasil / declaração de Kakavel no MD3"
+        }
+      ],
+      "movementType": "permanencia",
+      "evidenceKind": "apuracao",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-mireu-keyd-exit",
+      "player": "Mireu",
+      "team": "Keyd Stars",
+      "lane": "MID",
+      "status": "saindo",
+      "title": "Keyd anuncia saída de Mireu",
+      "description": "Desligamento oficial divulgado pela organização e reportado pela Sheep e pelo Mais Esports.",
+      "date": "06/10/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+      "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+      "sourceKey": "keyd",
+      "official": true,
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-zekas-keyd-exit",
+      "player": "Zekas",
+      "team": "Keyd Stars",
+      "lane": "TOP",
+      "status": "saindo",
+      "title": "Keyd anuncia saída de Zekas",
+      "description": "Desligamento oficial divulgado pela organização e reportado pela Sheep e pelo Mais Esports.",
+      "date": "06/10/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+      "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+      "sourceKey": "keyd",
+      "official": true,
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-jeskla-keyd-exit",
+      "player": "Jeskla",
+      "team": "Keyd Stars",
+      "lane": "ADC",
+      "status": "saindo",
+      "title": "Keyd anuncia saída de Jeskla",
+      "description": "Desligamento oficial divulgado pela organização e reportado pela Sheep e pelo Mais Esports.",
+      "date": "06/10/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+      "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+      "sourceKey": "keyd",
+      "official": true,
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-disamis-keyd",
+      "player": "Disamis",
+      "team": "Keyd Stars",
+      "lane": "JNG",
+      "status": "confirmado",
+      "title": "Showtana descarta saída de Disamis da Keyd",
+      "description": "Questionado sobre a chance de Disamis sair, Showtana respondeu que é zero. Permanência confirmada pela apuração do jornalista; não é novo anúncio de renovação.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118026731986858362",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "disamisReply",
+      "movementType": "permanencia",
+      "evidenceKind": "apuracao",
+      "relatedSources": [
+        {
+          "date": "30/10/2026",
+          "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+          "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+        },
+        {
+          "url": "https://maisesports.com.br/contratos/league-of-legends",
+          "date": "05/11/2026",
+          "author": "Mais Esports — consulta ao registro de contratos",
+          "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-scamber-keyd",
+      "player": "scamber",
+      "team": "Keyd Stars",
+      "lane": "SUP",
+      "status": "saindo",
+      "title": "Keyd anuncia saída de scamber",
+      "description": "A Keyd Stars anunciou a despedida do suporte em 04/11. A informação substitui o plano anterior de permanência; scamber sai da planilha e segue no histórico da Central.",
+      "date": "04/11/2026",
+      "source": "https://x.com/VivoKeyd/status/2118085941340352565",
+      "author": "Keyd Stars — anúncio oficial",
+      "sourceKey": "scamberExit",
+      "movementType": "saida",
+      "evidenceKind": "oficial",
+      "official": true,
+      "relatedSources": [
+        {
+          "url": "https://x.com/luisshowtana/status/2118058335329308786",
+          "date": "04/11/2026",
+          "author": "Showtana (@luisshowtana)",
+          "title": "Correção: a Keyd também faz testes de suporte"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-guigo-furia",
+      "player": "Guigo",
+      "team": "FURIA",
+      "lane": "TOP",
+      "status": "saindo",
+      "title": "FURIA considera a saída de Guigo",
+      "description": "A apuração aponta sua saída nos planos da organização. Ainda sem anúncio oficial de desligamento.",
+      "date": "30/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+      "sourceKey": "xyno",
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-ayu-furia",
+      "player": "Ayu",
+      "team": "FURIA",
+      "lane": "ADC",
+      "status": "previsto",
+      "title": "Renovação de Ayu com a FURIA é considerada provável",
+      "description": "Showtana considera difícil Ayu não renovar, mas o ADC avaliará projetos e valorização salarial. Agente Livre na visão de 2027; renovação ainda não confirmada.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118037376161169506",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "ayuReply",
+      "movementType": "renovacao",
+      "evidenceKind": "expectativa",
+      "relatedSources": [
+        {
+          "url": "https://x.com/luisshowtana/status/2118025538681905403",
+          "date": "04/11/2026",
+          "author": "Showtana (@luisshowtana)",
+          "title": "Ayu vai avaliar projetos no mercado"
+        },
+        {
+          "date": "30/10/2026",
+          "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+          "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-tatu-flyquest",
+      "player": "Tatu",
+      "team": "FlyQuest",
+      "lane": "JNG",
+      "status": "encaminhado",
+      "title": "FlyQuest apresenta proposta por Tatu",
+      "description": "Correslol relata proposta da FlyQuest ao jogador da FURIA. Não há aceite ou transferência confirmada.",
+      "date": "30/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+      "sourceKey": "xyno",
+      "newsOnly": true,
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-ayu-flyquest",
+      "player": "Ayu",
+      "team": "FlyQuest",
+      "lane": "ADC",
+      "status": "encaminhado",
+      "title": "FlyQuest apresenta proposta por Ayu",
+      "description": "Correslol relata proposta da FlyQuest ao jogador da FURIA. Não há aceite ou transferência confirmada.",
+      "date": "30/10/2026",
+      "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+      "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+      "sourceKey": "xyno",
+      "newsOnly": true,
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-raise-loud",
+      "player": "Raise",
+      "team": "LOUD",
+      "lane": "COMISSÃO",
+      "status": "saindo",
+      "title": "LOUD anuncia saída de Raise",
+      "description": "O treinador deixa a organização. Saída oficial reportada pelo Mais Esports e pela Sheep.",
+      "date": "05/11/2026",
+      "source": "https://x.com/maisesportsbr/status/2118464641013862607",
+      "author": "Mais Esports / anúncio da LOUD",
+      "sourceKey": "raise",
+      "newsOnly": true,
+      "official": true,
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-loud-coach",
+      "player": "Comissão técnica",
+      "team": "LOUD",
+      "lane": "COMISSÃO",
+      "status": "indefinido",
+      "title": "LOUD busca novo head coach",
+      "description": "Showtana informa que mudanças no elenco dependerão do novo treinador. A publicação não aponta um substituto definido.",
+      "date": "05/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118465209283272767",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "loudCoach",
+      "newsOnly": true,
+      "movementType": "indefinido",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-keyd-coaches",
+      "player": "SMILEY e Benvi",
+      "team": "Keyd Stars",
+      "lane": "COMISSÃO",
+      "status": "saindo",
+      "title": "Keyd também muda comissão técnica",
+      "description": "A saída de SMILEY e Benvi foi anunciada junto aos desligamentos dos jogadores.",
+      "date": "06/10/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+      "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+      "sourceKey": "keyd",
+      "newsOnly": true,
+      "official": true,
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-keyd-academy",
+      "player": "Academy",
+      "team": "Keyd Stars",
+      "lane": "PROJETO",
+      "status": "confirmado",
+      "title": "Keyd encerra equipe Academy para 2027",
+      "description": "A organização anunciou que deixará de manter elenco no tier 2, redirecionando recursos para outras modalidades.",
+      "date": "13/10/2026",
+      "source": "https://x.com/maisesportsbr/status/2110029098051310026",
+      "author": "Mais Esports / anúncio da Keyd Stars",
+      "sourceKey": "academy",
+      "newsOnly": true,
+      "official": true,
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-keyd-tryouts",
+      "player": "Elenco",
+      "team": "Keyd Stars",
+      "lane": "PROJETO",
+      "status": "indefinido",
+      "title": "Keyd realiza tryouts",
+      "description": "Showtana informou testes na Keyd e corrigiu que também há tryouts para suporte. Não há substituto confirmado para scamber.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118036782679732538",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "tryouts",
+      "newsOnly": true,
+      "movementType": "indefinido",
+      "relatedSources": [
+        {
+          "url": "https://x.com/luisshowtana/status/2118058335329308786",
+          "date": "04/11/2026",
+          "author": "Showtana (@luisshowtana)",
+          "title": "Correção: a Keyd também faz testes de suporte"
+        },
+        {
+          "url": "https://x.com/VivoKeyd/status/2118085941340352565",
+          "date": "04/11/2026",
+          "author": "Keyd Stars — anúncio oficial",
+          "title": "Despedida de scamber"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-croc-market",
+      "player": "Croc",
+      "team": "Mercado",
+      "lane": "JNG",
+      "status": "oferecido",
+      "title": "Croc está aberto a voltar ao competitivo",
+      "description": "O jogador declarou preferência por retornar como atleta, mas considera comissão técnica e tier 2. Não há destino ou proposta específica reportada.",
+      "date": "07/10/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2107863578191569017",
+      "author": "Sheep Esports Brasil / declaração de Croc",
+      "sourceKey": "croc",
+      "newsOnly": true,
+      "movementType": "chegada",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-keine-pain",
+      "player": "Keine",
+      "team": "paiN Gaming",
+      "lane": "MID",
+      "status": "saindo",
+      "title": "Keine retorna para serviço militar",
+      "description": "O Mais Esports relata situação semelhante à de Hena: retorno para serviço militar. Namiru já o substituiu no fim do segundo split.",
+      "date": "04/11/2026",
+      "source": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+      "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports",
+      "sourceKey": "painMais",
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-ceo-keyd-exit",
+      "player": "ceo",
+      "team": "Keyd Stars",
+      "lane": "ADC",
+      "status": "saindo",
+      "title": "ceo fica livre após vínculo com a Keyd",
+      "description": "A Sheep informa que o ADC está sem contrato após o fim do vínculo e foi consultado pela paiN.",
+      "date": "01/11/2026",
+      "source": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+      "author": "Sheep Esports Brasil",
+      "sourceKey": "ceo",
+      "movementType": "saida",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-tatu-furia",
+      "player": "Tatu",
+      "team": "FURIA",
+      "lane": "JNG",
+      "status": "confirmado",
+      "movementType": "permanencia",
+      "title": "Tatu tem vínculo oficial com a FURIA até 2027",
+      "description": "A FURIA anunciou a compra definitiva até o fim de 2027. O vínculo segue listado. É confirmação contratual, não um novo anúncio de escalação; a proposta externa reportada continua no histórico.",
+      "date": "21/08/2025",
+      "source": "https://maisesports.com.br/lta-sul-2025-jornalista-revela-valor-estimado-da-transferencia-de-tatu",
+      "author": "Ian Teixeira / Mais Esports — anúncio da FURIA",
+      "sourceKey": "tatuOfficial",
+      "evidenceKind": "oficial",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+          "author": "Showtana / Sheep Esports"
+        },
+        {
+          "date": "30/10/2026",
+          "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+          "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-tutsz-furia",
+      "player": "Tutsz",
+      "team": "FURIA",
+      "lane": "MID",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "Tutsz tem contrato com a FURIA até 2027",
+      "description": "A Sheep confirma vínculo até novembro de 2027. Não foi localizado anúncio novo de permanência ou transferência. O card representa contrato vigente, não garantia de titularidade.",
+      "date": "05/11/2026",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+      "author": "Showtana / Sheep Esports",
+      "sourceKey": "frosty",
+      "evidenceKind": "contrato",
+      "relatedSources": [],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-boal-pain",
+      "player": "Boal",
+      "team": "paiN Gaming",
+      "lane": "TOP",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "Boal tem vínculo com a paiN até 2027",
+      "description": "O registro lista contrato até 15/11/2027. Showtana considera muito provável que mudanças se concentrem em jungle e ADC. Não há novo anúncio de renovação identificado.",
+      "date": "05/11/2026",
+      "source": "https://maisesports.com.br/contratos/league-of-legends",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "sourceKey": "contractReview",
+      "evidenceKind": "contrato",
+      "relatedSources": [
+        {
+          "url": "https://x.com/luisshowtana/status/2118037871508795566",
+          "date": "04/11/2026",
+          "author": "Showtana (@luisshowtana)",
+          "title": "Resposta sobre mudanças da paiN apenas na jungle e ADC"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "dateKind": "consulta"
+    },
+    {
+      "id": "seed-ceos-pain",
+      "player": "Ceos",
+      "team": "paiN Gaming",
+      "lane": "SUP",
+      "status": "previsto",
+      "movementType": "permanencia",
+      "title": "Ceos tem retorno previsto na paiN",
+      "description": "A previsão se apoia na resposta de Showtana sobre mudanças concentradas em jungle e ADC. A consulta da paiN por frosty continua válida. Não há duração contratual nem renovação oficial confirmada.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118037871508795566",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "painReply",
+      "evidenceKind": "inferencia",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+          "author": "Showtana / Sheep Esports"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-namiru-pain",
+      "player": "Namiru",
+      "team": "paiN Gaming",
+      "lane": "MID",
+      "status": "previsto",
+      "movementType": "permanencia",
+      "title": "Namiru tem continuidade prevista na paiN",
+      "description": "Namiru substituiu Keine no fim de 2026. Sua continuidade é uma projeção a partir da resposta de Showtana sobre mudanças em jungle e ADC, sem confirmação individual nova.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118037871508795566",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "painReply",
+      "evidenceKind": "inferencia",
+      "relatedSources": [
+        {
+          "date": "04/11/2026",
+          "url": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+          "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports"
+        },
+        {
+          "url": "https://maisesports.com.br/contratos/league-of-legends",
+          "date": "05/11/2026",
+          "author": "Mais Esports — consulta ao registro de contratos",
+          "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+        }
+      ],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-kaze-loud",
+      "player": "Kaze",
+      "team": "LOUD",
+      "lane": "MID",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "Kaze mantém vínculo com a LOUD até 2027",
+      "description": "O registro consultado lista contrato até 2027. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+      "date": "05/11/2026",
+      "source": "https://maisesports.com.br/contratos/league-of-legends",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "sourceKey": "contractReview",
+      "evidenceKind": "contrato",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://x.com/luisshowtana/status/2118465209283272767",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "dateKind": "consulta"
+    },
+    {
+      "id": "seed-uzent-loud",
+      "player": "uZent",
+      "team": "LOUD",
+      "lane": "SUP",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "uZent mantém vínculo com a LOUD até 2027",
+      "description": "O registro consultado lista contrato até 2027. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+      "date": "05/11/2026",
+      "source": "https://maisesports.com.br/contratos/league-of-legends",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "sourceKey": "contractReview",
+      "evidenceKind": "contrato",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://x.com/luisshowtana/status/2118465209283272767",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "dateKind": "consulta"
+    },
+    {
+      "id": "seed-sinatra-loud",
+      "player": "Sinatra",
+      "team": "LOUD",
+      "lane": "JNG",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "Sinatra mantém vínculo com a LOUD até 2028",
+      "description": "O registro consultado lista contrato até 2028. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+      "date": "05/11/2026",
+      "source": "https://maisesports.com.br/contratos/league-of-legends",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "sourceKey": "contractReview",
+      "evidenceKind": "contrato",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://x.com/luisshowtana/status/2118465209283272767",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "dateKind": "consulta"
+    },
+    {
+      "id": "seed-rabelo-loud",
+      "player": "Rabelo",
+      "team": "LOUD",
+      "lane": "ADC",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "Rabelo mantém vínculo com a LOUD até 2028",
+      "description": "O registro consultado lista contrato até 2028. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+      "date": "05/11/2026",
+      "source": "https://maisesports.com.br/contratos/league-of-legends",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "sourceKey": "contractReview",
+      "evidenceKind": "contrato",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://x.com/luisshowtana/status/2118465209283272767",
+          "author": "Showtana (@luisshowtana)"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "dateKind": "consulta"
+    },
+    {
+      "id": "seed-cody-fluxo",
+      "player": "cody",
+      "team": "Fluxo",
+      "lane": "MID",
+      "status": "previsto",
+      "movementType": "permanencia",
+      "title": "cody tem boas chances de permanecer no Fluxo",
+      "description": "Em resposta sobre a continuidade de cody, Showtana apontou chances altas, mas disse que o jogador também vai avaliar o mercado. Renovação ainda não confirmada.",
+      "date": "04/11/2026",
+      "source": "https://x.com/luisshowtana/status/2118109867210944925",
+      "author": "Showtana (@luisshowtana)",
+      "sourceKey": "codyReply",
+      "evidenceKind": "expectativa",
+      "relatedSources": [],
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "id": "seed-manel-red",
+      "player": "Manel",
+      "team": "RED Canids",
+      "lane": "SUP",
+      "status": "vinculado",
+      "movementType": "permanencia",
+      "title": "Manel tem vínculo com a RED até 2027",
+      "description": "Manel disputou o último split como suporte titular e tem contrato listado até 15/11/2027. Isso confirma o vínculo, sem garantir a vaga de titular em 2027.",
+      "date": "05/11/2026",
+      "source": "https://maisesports.com.br/contratos/league-of-legends",
+      "author": "Mais Esports — consulta ao registro de contratos",
+      "sourceKey": "contractReview",
+      "evidenceKind": "contrato",
+      "relatedSources": [
+        {
+          "date": "05/11/2026",
+          "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+          "author": "Showtana / Sheep Esports"
+        }
+      ],
+      "reviewedAt": "2026-11-05",
+      "dateKind": "consulta"
+    }
+  ],
+  "scope": "Movimentações para 2027 localizadas nas quatro fontes em outubro e novembro de 2026. Sem atualização automática.",
+  "excluded": [
+    {
+      "topic": "titaN / Fluxo",
+      "reason": "Localizado apenas em perfil de torcedor, sem confirmação nas quatro fontes."
+    },
+    {
+      "topic": "Trymbi / RED",
+      "reason": "A matéria de novembro cita abordagem histórica para substituir frosty em 2026; não confirma nova negociação para 2027."
+    },
+    {
+      "topic": "Leviatán",
+      "reason": "Nenhuma movimentação de LoL para 2027 verificada; notícias de lukxo e erde são de VALORANT."
+    },
+    {
+      "topic": "Contratos chegando ao fim",
+      "reason": "Vencimento isolado não foi convertido em rumor de saída."
+    }
+  ],
+  "matrixScope": "Chegadas, compras, retornos, permanências e renovações com evidência. Saídas e casos indefinidos ficam somente na Central. Vínculo vigente é separado de confirmação de elenco.",
+  "revision": "Revisão por equipe, incluindo respostas do Showtana e anúncios oficiais."
+}

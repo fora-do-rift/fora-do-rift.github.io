@@ -1,0 +1,308 @@
+{
+  "xyno": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/7f1f70cb-70a6-499b-8f26-adb7726327b7/photos/899802bd-f017-4104-8290-846f14d7e634.webp",
+    "source": "https://maisesports.com.br/jogadores/rabelo",
+    "file": "assets/players/xyno.png"
+  },
+  "guigo": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/c2eb570a-189b-40b1-bfda-79e2f19e9ff3/photos/81b8f16c-b549-4637-bce0-3d672b37fc08.webp",
+    "source": "https://maisesports.com.br/jogadores/tutsz",
+    "file": "assets/players/guigo.png"
+  },
+  "tutsz": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/0cd461f0-2a4e-420f-9e7b-ee813644075b/photos/fd5b9efb-8e54-4c56-b590-eb016422cfee.webp",
+    "source": "https://maisesports.com.br/jogadores/tutsz",
+    "file": "assets/players/tutsz.png"
+  },
+  "tatu": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/6b4efc39-3d89-40e7-b50d-3784eb8098ad/photos/282b85ec-9928-4a58-90d0-1f9ad767abb0.webp",
+    "source": "https://maisesports.com.br/jogadores/tutsz",
+    "file": "assets/players/tatu.png"
+  },
+  "sinatra": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/5973aedb-e51e-45bd-927c-476fed12d4ad/photos/a6439a19-0916-4277-8050-8f99dc915215.webp",
+    "source": "https://maisesports.com.br/jogadores/rabelo",
+    "file": "assets/players/sinatra.png"
+  },
+  "disamis": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/d81226fc-158b-4e78-afdf-068853df7a9a/photos/779fbdb4-bad4-4c02-81cf-886800d83bbd.webp",
+    "source": "https://maisesports.com.br/jogadores/ceo",
+    "file": "assets/players/disamis.png"
+  },
+  "mireu": {
+    "url": "https://cdn-api.pandascore.co/images/player/image/28807/vks_mireu_2025_split_3.png",
+    "source": "https://maisesports.com.br/jogadores/mireu",
+    "file": "assets/players/mireu.png"
+  },
+  "zekas": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/54541/rise_zeka_s_2024_split_2.png",
+    "source": "https://maisesports.com.br/jogadores/zekas",
+    "file": "assets/players/zekas.png"
+  },
+  "rabelo": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/e5a1ef55-a1ea-4a7a-aaa1-db1347e364a4/photos/d41df0ac-c8eb-4908-8391-6dbe18c72963.webp",
+    "source": "https://maisesports.com.br/jogadores/rabelo",
+    "file": "assets/players/rabelo.png"
+  },
+  "uzent": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/a1a98101-b40f-4f61-9bb5-c437f19b5344/photos/2cc63383-edc9-499e-81f9-3c62c02c6987.webp",
+    "source": "https://maisesports.com.br/jogadores/manel",
+    "file": "assets/players/uzent.png"
+  },
+  "ceo": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/31757/lev_ceo_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/ceo",
+    "file": "assets/players/ceo.png"
+  },
+  "cariok": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/2670f0c6-5107-49a8-bee6-901dd3bd084d/photos/ea86eb39-98cc-4e91-b23d-2672cd891104.webp",
+    "source": "https://maisesports.com.br/jogadores/namiru",
+    "file": "assets/players/cariok.png"
+  },
+  "keine": {
+    "url": "https://cdn.pandascore.co/images/player/image/25355/dig_keine_2025_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/keine",
+    "file": "assets/players/keine.png"
+  },
+  "namiru": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/pandascore/cdn-api/images/player/image/52704/intz_namiru_2024_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/namiru",
+    "file": "assets/players/namiru.png"
+  },
+  "zynts": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/0e8e751a-b6a2-4a1c-8136-c8b64ab3dcc3/photos/fa87e6c0-7f4f-47bc-881a-e8df0bc7409e.webp",
+    "source": "https://maisesports.com.br/jogadores/morttheus",
+    "file": "assets/players/zynts.png"
+  },
+  "samkz": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/pandascore/cdn-api/images/player/image/35664/kbm.a_samkz_2023_split_2.png",
+    "source": "https://maisesports.com.br/jogadores/marvin",
+    "file": "assets/players/samkz.png"
+  },
+  "marvin": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/pandascore/cdn-api/images/player/image/52714/fxw7_m_marvin_2025_split_3.png",
+    "source": "https://maisesports.com.br/jogadores/marvin",
+    "file": "assets/players/marvin.png"
+  },
+  "zothve": {
+    "url": "https://cdn.pandascore.co/images/player/image/32400/lev_zothve_lta_2025_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/zothve",
+    "file": "assets/players/zothve.png"
+  },
+  "curty": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/52085/fxw7_curty_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/prodelta",
+    "file": "assets/players/curty.png"
+  },
+  "manel": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/pandascore/cdn-api/images/player/image/46808/sccp_manel_2025_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/manel",
+    "file": "assets/players/manel.png"
+  },
+  "morttheus": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/80c9f6d6-bf7a-47c0-b9dc-8e3b770a8122/photos/5f05a26f-1825-4847-bb66-ac7962b5580a.webp",
+    "source": "https://maisesports.com.br/jogadores/morttheus",
+    "file": "assets/players/morttheus.png"
+  },
+  "fuuu": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/a99b3101-0221-4acc-9ea0-11e61161063a/photos/df21f626-53b8-4a97-9fe9-ddd0c75f5489.webp",
+    "source": "https://maisesports.com.br/jogadores/morttheus",
+    "file": "assets/players/fuuu.png"
+  },
+  "duduhh": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/545caa8d-a7fc-4bac-80dc-b0034f933679/photos/bf259f2c-4ca3-484d-8b78-2988410c0214.webp",
+    "source": "https://maisesports.com.br/jogadores/ackerman",
+    "file": "assets/players/duduhh.png"
+  },
+  "cody": {
+    "url": "https://cdn.pandascore.co/images/player/image/25536/6_k_cody_2023_opening.png",
+    "source": "https://maisesports.com.br/jogadores/cody",
+    "file": "assets/players/cody.png"
+  },
+  "momochi": {
+    "url": "https://cdn.pandascore.co/images/player/image/46817/lbr.a_momochi_2023_split_2.png",
+    "source": "https://maisesports.com.br/jogadores/momochi",
+    "file": "assets/players/momochi.png"
+  },
+  "prodelta": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/29566/fxw7_pro_delta_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/prodelta",
+    "file": "assets/players/prodelta.png"
+  },
+  "hauz": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/15232/fxw7_hauz_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/prodelta",
+    "file": "assets/players/hauz.png"
+  },
+  "peach": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/31908/fxw7_peach_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/prodelta",
+    "file": "assets/players/peach.png"
+  },
+  "ackerman": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/dd7de209-fee0-4d9b-80d5-3ccb54735d53/photos/53813e24-3294-4881-abb2-98d71fc6b9a7.webp",
+    "source": "https://maisesports.com.br/jogadores/ackerman",
+    "file": "assets/players/ackerman.png"
+  },
+  "kaze": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/981c9c02-0000-459f-a994-64be7175ae7e/photos/1881f216-aefa-4bf1-8e3e-931af82e5a27.webp",
+    "source": "https://maisesports.com.br/jogadores/rabelo",
+    "file": "assets/players/kaze.png"
+  },
+  "boal": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/2d5a666b-d7a4-4665-8f55-4f544b3d28cc/photos/1816208b-c1c0-4e05-ab81-ac0e8416a2b0.webp",
+    "source": "https://maisesports.com.br/jogadores/namiru",
+    "file": "assets/players/boal.png"
+  },
+  "trigger": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/19306/v5_trigger_2021_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/namiru",
+    "file": "assets/players/trigger.png"
+  },
+  "kuri": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/8181/pain_kuri_lta_2025_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/namiru",
+    "file": "assets/players/kuri.png"
+  },
+  "stepz": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/pandascore/cdn-api/images/player/image/59991/red_stepz_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/morttheus",
+    "file": "assets/players/stepz.png"
+  },
+  "frosty": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://assets.maisesports.com.br/backoffice/players/9da73e21-f765-4dfe-b027-b65c8180f2fb/photos/3bb5fc0b-1e49-4552-916e-b16ecf4d2d1b.webp",
+    "source": "https://maisesports.com.br/jogadores/morttheus",
+    "file": "assets/players/frosty.png"
+  },
+  "bao": {
+    "url": "https://assets.maisesports.com.br/cdn-cgi/image/height=288,fit=scale-down,format=auto,onerror=redirect/https://cdn-api.pandascore.co/images/player/image/25364/fxw7_bao_2026_split_1.png",
+    "source": "https://maisesports.com.br/jogadores/prodelta",
+    "file": "assets/players/bao.png"
+  },
+  "sarolu": {
+    "url": "https://static.lolesports.com/players/1754037575571_sarolu.png",
+    "source": "https://lolesports.com/pt-BR/teams/vivo-keyd",
+    "file": "assets/players/sarolu.png"
+  },
+  "qats": {
+    "url": "https://static.lolesports.com/players/1754037546970_qats.png",
+    "source": "https://lolesports.com/pt-BR/teams/vivo-keyd",
+    "file": "assets/players/qats.png"
+  },
+  "scamber": {
+    "url": "https://static.lolesports.com/players/1754037601928_scamber.png",
+    "source": "https://lolesports.com/pt-BR/teams/vivo-keyd",
+    "file": "assets/players/scamber.png"
+  },
+  "zay": {
+    "url": "https://static.lolesports.com/players/1717426916070_Zay.png",
+    "source": "https://lolesports.com/pt-BR/teams/vivo-keyd",
+    "file": "assets/players/zay.png"
+  },
+  "mago": {
+    "url": "https://static.lolesports.com/players/1768377459812_image6618.png",
+    "source": "https://lolesports.com/pt-BR/teams/loud",
+    "file": "assets/players/mago.png"
+  },
+  "supercleber": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/SuperCleber.png",
+    "source": "https://www.sheepesports.com/en/lol/players/SuperCleber",
+    "file": "assets/players/supercleber-cutout.webp"
+  },
+  "buero": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Buero.png",
+    "source": "https://www.sheepesports.com/en/lol/players/Buero",
+    "file": "assets/players/buero-cutout.webp"
+  },
+  "hena": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Hena.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Hena.png",
+    "file": "assets/players/hena-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "feisty": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Feisty.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Feisty.png",
+    "file": "assets/players/feisty-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "bwipo": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Bwipo.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Bwipo.png",
+    "file": "assets/players/bwipo-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "jeskla": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Jeskla.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Jeskla.png",
+    "file": "assets/players/jeskla-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "brance": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Brance.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Brance.png",
+    "file": "assets/players/brance-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "omon": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/OMON.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/OMON.png",
+    "file": "assets/players/omon-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "ayu": {
+    "url": "https://assets.maisesports.com.br/backoffice/players/07e9e409-83b2-4a22-b5ff-3dd1fa1b8f41/photos/e2e86412-b3ec-4067-b26b-3381e7a1e09b.webp",
+    "source": "https://assets.maisesports.com.br/backoffice/players/07e9e409-83b2-4a22-b5ff-3dd1fa1b8f41/photos/e2e86412-b3ec-4067-b26b-3381e7a1e09b.webp",
+    "file": "assets/players/ayu-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "jojo": {
+    "url": "https://assets.maisesports.com.br/backoffice/players/acb56189-2c24-403a-a9a6-19f2f25115b9/photos/65d4a1c3-e2c5-4343-9fd9-52e6da57fd3c.webp",
+    "source": "https://assets.maisesports.com.br/backoffice/players/acb56189-2c24-403a-a9a6-19f2f25115b9/photos/65d4a1c3-e2c5-4343-9fd9-52e6da57fd3c.webp",
+    "file": "assets/players/jojo-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "curse": {
+    "url": "https://assets.maisesports.com.br/backoffice/players/15a87be0-ec5e-4605-be31-b2eee9e423a4/photos/def52756-6f9a-47e3-a2aa-7801433da8e3.webp",
+    "source": "https://assets.maisesports.com.br/backoffice/players/15a87be0-ec5e-4605-be31-b2eee9e423a4/photos/def52756-6f9a-47e3-a2aa-7801433da8e3.webp",
+    "file": "assets/players/curse-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "zest": {
+    "url": "https://assets.maisesports.com.br/backoffice/players/c6daa90e-2207-413c-b287-7051aa2cd484/photos/32f5de3c-ce5a-49ff-903f-a02210dc8d56.webp",
+    "source": "https://assets.maisesports.com.br/backoffice/players/c6daa90e-2207-413c-b287-7051aa2cd484/photos/32f5de3c-ce5a-49ff-903f-a02210dc8d56.webp",
+    "file": "assets/players/zest-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "ceos": {
+    "url": "https://assets.maisesports.com.br/backoffice/players/d15edc3c-c87a-4db0-ad30-5ac46da2d3d1/photos/68937217-c3fc-46c3-86e2-9a5117dafb71.webp",
+    "source": "https://maisesports.com.br/jogadores/ceos",
+    "file": "assets/players/ceos-cutout.webp",
+    "transparent": true,
+    "reviewedAt": "2026-11-05"
+  },
+  "trymbi": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Trymbi.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Trymbi.png",
+    "file": "assets/players/trymbi.png",
+    "transparent": true,
+    "reviewedAt": "2026-11-06"
+  },
+  "zoelys": {
+    "url": "https://assets.sheepesports.com/esports/lol/players/Zoelys.png",
+    "source": "https://assets.sheepesports.com/esports/lol/players/Zoelys.png",
+    "file": "assets/players/zoelys.png",
+    "transparent": true,
+    "reviewedAt": "2026-11-06"
+  }
+}

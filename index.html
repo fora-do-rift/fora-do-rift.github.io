@@ -1,0 +1,1987 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Rift Mercado — CBLOL 2027</title>
+<meta name="description" content="Planilha de movimentações, cobertura de transferências e montador de planilha do CBLOL 2027.">
+<style>
+:root{--bg:#090d17;--panel:#111827;--panel2:#151e2e;--panel3:#1b2639;--text:#edf3fc;--dim:#94a3b8;--line:#283449;--lime:#b9f45c;--blue:#61a9ff;--green:#43d79b;--yellow:#f5ca69;--red:#ff747a;--muted:#9caac1;--radius:17px}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse 65% 20% at 70% -4%,#1e3445 0%,transparent 85%),var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif}a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}.shell{max-width:1500px;margin:auto;padding:0 30px 60px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:82px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;font-size:19px;font-weight:900;letter-spacing:-.6px}.brandIcon{display:grid;place-items:center;width:39px;height:39px;background:var(--lime);color:#111827;border-radius:12px;font-size:22px}.brand span span{color:var(--lime)}.topright{color:var(--dim);font-size:12px;display:flex;align-items:center;gap:14px}.dot{width:7px;height:7px;border-radius:99px;background:var(--lime);display:inline-block}.hero{padding:38px 0 26px;display:flex;justify-content:space-between;gap:20px;align-items:end}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2.4px;font-weight:800;color:var(--lime)}h1{font-size:clamp(30px,4.8vw,53px);letter-spacing:-2px;line-height:1.1;margin:10px 0}h1 em{color:var(--lime);font-style:normal}.sub{color:var(--dim);max-width:720px;margin:0;font-size:14px}.actions{display:flex;gap:9px;flex-wrap:wrap}.btn{border:1px solid var(--line);color:var(--text);background:var(--panel2);padding:10px 14px;border-radius:10px;font-weight:700;white-space:nowrap}.btn:hover{border-color:#69809a}.btn.primary{background:var(--lime);color:#15210d;border-color:var(--lime)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:13px 0 26px}.stat{background:linear-gradient(130deg,#162034,#111827);border:1px solid var(--line);border-radius:var(--radius);padding:17px 20px}.stat small{display:block;color:var(--dim);font-weight:600}.stat b{font-size:29px;letter-spacing:-1px;display:block;margin-top:5px}.stat small.foot{font-size:11px;font-weight:400}.stat .accent{color:var(--lime)}.tabs{display:flex;gap:7px;border-bottom:1px solid var(--line);margin-bottom:22px;overflow:auto}.tab{padding:13px 18px;border:0;border-bottom:2px solid transparent;color:var(--dim);background:none;font-weight:750;white-space:nowrap}.tab.active{color:var(--lime);border-color:var(--lime)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-bottom:18px}.panelhead{display:flex;justify-content:space-between;align-items:start;gap:18px;margin-bottom:18px;flex-wrap:wrap}h2{font-size:19px;letter-spacing:-.4px;margin:0 0 4px}h3{margin:0 0 8px;font-size:15px}.muted{color:var(--dim)}.small{font-size:12px}.controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.field{background:#0d1422;border:1px solid #2b3950;color:var(--text);padding:10px 12px;border-radius:9px;min-width:130px;outline:none}.field:focus{border-color:var(--lime)}.search{min-width:205px}.legend{display:flex;align-items:center;gap:17px;flex-wrap:wrap;margin:0 0 18px;font-size:12px;color:#c3cfde}.legend span{display:flex;align-items:center;gap:6px}.circle{height:9px;width:9px;display:inline-block;border-radius:50%}.matrixwrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}.matrix{width:100%;border-collapse:separate;border-spacing:0;min-width:900px;text-align:left}.matrix th{font-size:11px;letter-spacing:1px;text-transform:uppercase;background:#1b2639;padding:13px 12px;color:#aebdd1;border-bottom:1px solid var(--line)}.matrix th:first-child{position:sticky;left:0;z-index:2}.matrix td{padding:7px;border-bottom:1px solid #263244;vertical-align:top}.matrix tr:last-child td{border-bottom:0}.matrix td:first-child{position:sticky;left:0;background:var(--panel);z-index:1;width:150px;padding:15px}.teamname{font-weight:900;line-height:1.2}.tiny{font-size:10px;color:var(--dim);display:block;margin-top:5px}.playerchip{width:100%;text-align:left;background:#233045;border:1px solid #34455c;border-radius:8px;color:var(--text);padding:8px 9px;margin-bottom:5px;transition:transform .12s}.playerchip:hover{transform:translateY(-1px);filter:brightness(1.13)}.playerchip:last-child{margin:0}.playerchip strong{font-size:12px;display:block;white-space:nowrap}.playerchip small{display:block;color:#bbcadb;font-size:10px}.playerchip.confirmado{background:#153d31;border-color:#266d54}.playerchip.encaminhado{background:#183554;border-color:#2f6094}.playerchip.interesse{background:#483920;border-color:#796035}.playerchip.saindo{background:#4b252e;border-color:#87414c}.playerchip.base{background:#233045}.pill{display:inline-flex;align-items:center;gap:5px;padding:4px 8px;border-radius:99px;font-size:11px;font-weight:750;white-space:nowrap}.pill.confirmado{color:#a6ffd5;background:#153d31}.pill.encaminhado{color:#99c7ff;background:#183554}.pill.interesse{color:#ffe19a;background:#483920}.pill.saindo{color:#ffabb0;background:#4b252e}.pill.base{color:#bfcbe0;background:#29364c}.pill.emprestimo{color:#d5baff;background:#3d3159}.info{display:flex;gap:10px;align-items:start;background:#172538;border:1px solid #30435c;padding:14px 16px;border-radius:10px;color:#c3d1e5;margin-top:17px;font-size:12px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.news{padding:19px;background:var(--panel2);border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;gap:12px}.news h3{font-size:17px;line-height:1.3;margin:0}.news p{color:var(--dim);margin:0;font-size:13px}.news footer{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--dim);font-size:11px}.news a{color:var(--lime);font-weight:700;text-decoration:none}.news a:hover{text-decoration:underline}.twocol{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.82fr);gap:16px}.roster{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}.slot{background:#131f30;border:1px solid #2f3d51;border-radius:12px;padding:12px 9px;min-width:0}.slot .role{font-size:11px;color:var(--lime);letter-spacing:.7px;font-weight:800;margin-bottom:9px}.slot select{width:100%;min-width:0;font-size:12px}.slot .who{min-height:22px;font-size:12px;margin-top:10px;color:var(--dim)}.verdict{padding:14px;border-radius:11px;border:1px solid #355347;background:#152d2b;margin-top:15px;color:#a8efd0;font-weight:650}.verdict.bad{background:#3a2028;border-color:#7b3741;color:#ffb3ba}.bigCount{font-size:35px;font-weight:900;color:var(--lime);letter-spacing:-1px}.listrow{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding:12px 0}.listrow:last-child{border:0}.listrow span{font-size:12px}.sources a{display:block;color:#b4d9ff;padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}.sources a:hover{color:var(--lime)}.empty{padding:30px;text-align:center;color:var(--dim)}.notice{color:#c0cede;font-size:12px}.hidden{display:none!important}.modalwrap{position:fixed;inset:0;background:#030711c9;z-index:10;display:flex;align-items:center;justify-content:center;padding:18px}.modal{width:min(600px,100%);max-height:90vh;overflow:auto;background:#152034;border:1px solid #42546f;border-radius:18px;padding:25px;box-shadow:0 24px 100px #000b}.modalhead{display:flex;justify-content:space-between;align-items:center}.close{background:transparent;color:#fff;border:0;font-size:23px}.detailgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}.detailgrid div{background:#0c1626;padding:13px;border-radius:9px}.detailgrid small{color:var(--dim);display:block}.detailgrid b{font-size:13px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.formgrid label{color:#b5c2d3;font-size:12px;font-weight:700}.formgrid .field{display:block;width:100%;margin-top:5px}.formgrid .wide{grid-column:1/-1}.toast{position:fixed;bottom:23px;right:23px;padding:13px 18px;background:var(--lime);color:#0e1c07;border-radius:11px;font-weight:800;z-index:20;box-shadow:0 9px 40px #0008}.footer{color:var(--dim);font-size:12px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px}.labelchip{font-size:10px;color:var(--dim)}@media(max-width:1000px){.cards{grid-template-columns:1fr 1fr}.twocol{grid-template-columns:1fr}.roster{grid-template-columns:repeat(3,1fr)}}@media(max-width:700px){.shell{padding:0 14px 40px}.hero{align-items:start;flex-direction:column;padding-top:25px}h1{letter-spacing:-1px}.topright{display:none}.stats{grid-template-columns:1fr 1fr}.stat{padding:13px}.stat b{font-size:25px}.cards{grid-template-columns:1fr}.roster{grid-template-columns:repeat(2,1fr)}.panel{padding:14px}.formgrid{grid-template-columns:1fr}.formgrid .wide{grid-column:auto}.footer{flex-direction:column}}
+
+/* Share the available panel width equally between all eight teams. */
+.matrix{min-width:0;table-layout:fixed}.matrix .laneColumn{width:76px}.matrix .teamColumn{width:auto}
+.matrix thead th{height:67px;vertical-align:middle}.matrix thead .teamname{font-size:12px;letter-spacing:0;text-transform:none;color:var(--text)}
+.matrix thead .tiny{letter-spacing:0;text-transform:none;font-weight:400}
+.matrix tbody th{position:sticky;left:0;z-index:2;width:76px;background:var(--panel2);color:var(--lime);vertical-align:middle;border-right:1px solid var(--line);padding:14px 8px}
+.matrix tbody td{padding:6px;border-right:1px solid #263244}.matrix tbody td:last-child{border-right:0}.matrix tbody tr:last-child th{border-bottom:0}
+.matrix td.empty{position:static;width:auto;padding:30px;text-align:center}.matrixwrap:focus-visible,.playerchip:focus-visible{outline:2px solid var(--lime);outline-offset:2px}
+.playerchip{display:flex;align-items:center;gap:6px;min-height:62px;padding:6px}.playertext{min-width:0}.playerchip strong{white-space:normal;overflow-wrap:anywhere;line-height:1.3}.playerchip small{line-height:1.4;margin-top:4px}
+.playeravatar{position:relative;display:inline-grid;place-items:center;flex:0 0 32px;width:32px;height:36px;border-radius:0;overflow:hidden;background:transparent;border:0;color:#bbcadb;font-size:12px;font-weight:800}
+.playeravatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;background:transparent}.playeravatar img[hidden]{display:none}
+.playeravatar:has(img:not([hidden]))>span{visibility:hidden}
+.playerheading{display:flex;align-items:center;gap:13px;margin:16px 0}.playerheading h1{font-size:32px;margin:0}.playerheading .playeravatar{width:64px;height:64px;flex-basis:64px;font-size:20px}
+.vacant{display:block;padding:15px 6px;color:#74849b;font-size:11px;text-align:center}.matrixhint{margin:8px 0 0;color:var(--dim);font-size:11px}
+.matrix thead th{padding:12px 8px;overflow-wrap:anywhere}
+@media(min-width:901px) and (max-width:1200px){.matrix .laneColumn{width:66px}.matrix tbody th{width:66px;font-size:10px;padding:12px 5px}.matrix tbody td{padding:4px}.playerchip{flex-direction:column;align-items:center;text-align:center;gap:4px}.playerchip strong{font-size:11px}.playerchip small{font-size:9px}.matrix thead th{padding:10px 5px}.matrix thead .teamname{font-size:11px}}
+@media(max-width:900px){.matrix{min-width:1060px}}
+.teamheading{display:flex;align-items:center;gap:6px;min-width:0}.teamheading .teamname{min-width:0;overflow-wrap:normal}.teamlogo{display:block;flex:0 0 24px;width:24px;height:24px;object-fit:contain;background:transparent}
+@media(min-width:901px) and (max-width:1200px){.teamheading{gap:4px}.teamlogo{width:20px;height:20px;flex-basis:20px}}
+.playerchip .playercountry{display:flex;align-items:center;gap:4px;line-height:1.25}.countryflag{display:inline-block;flex:0 0 16px;width:16px;height:12px;object-fit:cover;border-radius:2px;vertical-align:middle}.playerchip .contractline{line-height:1.35;margin-top:4px;color:#d2ddec}.countrydetail{display:flex;align-items:center;gap:6px}@media(min-width:901px) and (max-width:1200px){.playerchip .playercountry{justify-content:center}}
+.playerchip.vinculado{background:#28334d;border-color:#7887bc}.pill.vinculado{background:#28334d;color:#c5d1ff}
+/* Centered lane and team headings */
+.matrix thead th,.matrix tbody th{text-align:center}
+.lanecell{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px}.laneicon{display:block;width:28px;height:28px;object-fit:contain}
+.teamheading{flex-direction:column;justify-content:center;text-align:center;gap:5px}.teamheading .teamname{text-align:center}
+@media(min-width:901px) and (max-width:1200px){.laneicon{width:24px;height:24px}}
+/* "Incerto" status (red in the Showtana window spreadsheet) */
+.playerchip.incerto{background:#4a2026;border-color:#9a3a45}.pill.incerto{color:#ffb0b6;background:#4a2026}
+/* Showtana legend colours: green confirmado, blue encaminhado, yellow interesse, red incerto */
+:root{--sg-green:#5cc58a;--sg-blue:#6c9fe6;--sg-yellow:#e2c060;--sg-red:#e07a82}
+.playerchip.sg-confirmado{background:#2b5f47;border-color:#43876a;color:#eafff3}
+.playerchip.sg-encaminhado{background:#2c4d78;border-color:#46709f;color:#eef5ff}
+.playerchip.sg-interesse{background:#6b5a2a;border-color:#94803f;color:#fff6dc}
+.playerchip.sg-incerto{background:#6a2f38;border-color:#934852;color:#ffecee}
+.playerchip[class*="sg-"] small,.playerchip[class*="sg-"] .contractline{color:inherit;opacity:.88}
+/* Uniform chips: same height and structure (photo · name · country · contract), long text truncated */
+.matrix .playerchip{height:66px;min-height:66px;overflow:hidden;align-items:center;margin-bottom:6px}
+.matrix .playerchip:last-child{margin-bottom:0}
+.matrix .playertext{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.matrix .playerchip strong,.matrix .playerchip small,.matrix .playerchip .playercountry>span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;overflow-wrap:normal;max-width:100%}
+.matrix .playerchip small{margin-top:2px}
+.placeholderavatar{border-radius:8px;background:#0003;color:inherit;font-size:14px}
+/* Coaching staff rows */
+.stafficon{color:#c8aa6e}
+.matrix tr.staffstart>th,.matrix tr.staffstart>td{border-top:3px solid var(--line)}
+#matrixBody tr:has(.stafficon)>td{height:48px}
+/* "Monte sua planilha" */
+.addslot{display:grid;place-items:center;width:100%;height:66px;border:1px dashed #34455c;border-radius:8px;background:transparent;color:#6f819b;font-size:20px;transition:border-color .12s,color .12s}
+.addslot:hover,.addslot:focus-visible{border-color:var(--lime);color:var(--lime);outline:none}
+.quickpicks,.planactions{display:flex;gap:8px;flex-wrap:wrap}.planactions{justify-content:flex-end}
+.statuspick{border:0;padding:0;margin:0;display:flex;gap:8px;flex-wrap:wrap}.statuspick legend{color:#b5c2d3;font-size:12px;font-weight:700;margin-bottom:6px;padding:0}
+.statusopt{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:9px;border:1px solid transparent;cursor:pointer;font-weight:700;font-size:12px}
+.statusopt.sg-confirmado{background:#2b5f47;color:#eafff3}.statusopt.sg-encaminhado{background:#2c4d78;color:#eef5ff}.statusopt.sg-interesse{background:#6b5a2a;color:#fff6dc}.statusopt.sg-incerto{background:#6a2f38;color:#ffecee}
+.statusopt:has(input:checked){border-color:#fff;box-shadow:0 0 0 1px #fff}.statusopt input{accent-color:#fff;margin:0}
+@media(min-width:901px) and (max-width:1200px){.addslot{height:104px}}
+@media(min-width:901px) and (max-width:1200px){.matrix .playerchip{height:104px;min-height:104px}.matrix .playertext{align-items:center}}
+</style>
+</head>
+<body>
+<div class="shell"><header class="topbar"><div class="brand"><div class="brandIcon">↗</div><span>RIFT<span>MERCADO</span></span></div><div class="topright"><span><span class="dot"></span> PROJETO INDEPENDENTE</span><span>CBLOL • TEMPORADA 2027</span></div></header>
+<section class="hero"><div><div class="eyebrow">O MERCADO DA RIFT • EDIÇÃO 2027</div><h1>O próximo <em>roster</em><br>começa aqui.</h1></div></section>
+<nav class="tabs"><button class="tab active" data-tab="planilha">▦ &nbsp;Planilha 2027</button><button class="tab" data-tab="noticias">◈ &nbsp;Central de rumores</button><button class="tab" data-tab="montar">✎ &nbsp;Monte sua planilha</button><button class="tab" data-tab="fontes">◉ &nbsp;Fontes & metodologia</button></nav>
+<section id="planilha"><div class="panel"><div class="panelhead"><div><h2>Planilha CBLOL 2027</h2><div class="muted small">Reforços, retornos, renovações e permanências para 2027. A ficha distingue apuração, anúncio oficial e vínculo vigente.</div></div><div class="controls"><input class="field search" id="search" placeholder="⌕  Buscar jogador ou time"><select id="teamFilter" class="field"><option value="">Todas as equipes</option></select><select id="statusFilter" class="field"><option value="">Todos os status</option><option value="confirmado">Confirmado</option><option value="encaminhado">Encaminhado</option><option value="interesse">Interesse</option><option value="incerto">Incerto</option></select></div></div><div class="legend"><span><i class="circle" style="background:var(--sg-green)"></i>Confirmado</span><span><i class="circle" style="background:var(--sg-blue)"></i>Encaminhado</span><span><i class="circle" style="background:var(--sg-yellow)"></i>Interesse</span><span><i class="circle" style="background:var(--sg-red)"></i>Incerto</span></div><div class="matrixwrap" tabindex="0" role="region" aria-label="Planilha CBLOL 2027 por lane e equipe"><table class="matrix" aria-label="Times nas colunas e lanes nas linhas"><colgroup id="matrixCols"></colgroup><thead id="matrixHead"></thead><tbody id="matrixBody"></tbody></table></div><p class="matrixhint">Times nas colunas · Lanes nas linhas · Clique em um jogador para ver os detalhes.</p><div class="info"><span>ⓘ</span><span>O mapa reúne as opções de elenco para 2027, incluindo permanências e renovações. Saídas e situações sem perspectiva definida ficam apenas na Central. Contrato vigente não garante titularidade. A cor indica o status reportado; interesse e negociação não confirmam contratação. A situação contratual considera o CBLOL 2027: jogadores sem contrato ou com vínculo encerrando em 2026 aparecem como Agente Livre. Clique no jogador para consultar a fonte e a data.</span></div></div></section>
+<section id="noticias" class="hidden"><div class="panel"><div class="panelhead"><div><h2>Central de movimentações</h2><div class="muted small">Negociações acompanhadas com referências externas e grau de confirmação.</div></div><select class="field" id="newsFilter"><option value="">Todos os status</option><option value="confirmado">Confirmado</option><option value="encaminhado">Negociação / proposta</option><option value="interesse">Interesse</option><option value="saindo">Saída reportada</option><option value="previsto">Permanência / retorno previsto</option><option value="indefinido">Indefinido</option><option value="vinculado">Vínculo vigente em 2027</option><option value="oferecido">Oferecido / disponível</option><option value="incerto">Incerto</option></select></div><div class="cards" id="newsCards"></div></div></section>
+<section id="montar" class="hidden"><div class="panel"><div class="panelhead"><div><h2>Monte sua planilha</h2><div class="muted small">Os 5 titulares e a comissão técnica de cada time, do seu jeito. Clique numa vaga para escolher o nome e o status. Fica salvo neste navegador.</div></div><div class="controls"><button class="btn" id="planFromMarket">↺ Começar da planilha atual</button><button class="btn" id="planClear">Limpar</button><button class="btn" id="planCSV">↓ CSV</button><button class="btn primary" id="planCopy">⧉ Copiar como texto</button></div></div><div class="legend"><span><i class="circle" style="background:var(--sg-green)"></i>Confirmado</span><span><i class="circle" style="background:var(--sg-blue)"></i>Encaminhado</span><span><i class="circle" style="background:var(--sg-yellow)"></i>Interesse</span><span><i class="circle" style="background:var(--sg-red)"></i>Incerto</span><span class="muted" id="planCount" style="margin-left:auto"></span></div><div class="matrixwrap" tabindex="0" role="region" aria-label="Sua planilha CBLOL 2027"><table class="matrix" aria-label="Sua planilha: times nas colunas, posições nas linhas"><colgroup id="planCols"></colgroup><thead id="planHead"></thead><tbody id="planBody"></tbody></table></div><p class="matrixhint">Times nas colunas · Titulares e comissão técnica nas linhas · Clique em uma vaga para editar.</p></div></section>
+<section id="fontes" class="hidden"><div class="twocol"><div class="panel sources"><h2>Fontes acompanhadas</h2><p class="muted small">Lista definida por você. Pesquisa atualizada em 05/11/2026, com notícias da janela publicadas em outubro e novembro.</p><a class="sourcehandle" href="https://x.com/SheepEsportsBR" target="_blank" rel="noopener">@SheepEsportsBR · Sheep Esports Brasil ↗</a><a class="sourcehandle" href="https://x.com/luisshowtana" target="_blank" rel="noopener">@luisshowtana · Showtana ↗</a><a class="sourcehandle" href="https://x.com/maisesportsbr" target="_blank" rel="noopener">@maisesportsbr · Mais Esports ↗</a><a class="sourcehandle" href="https://x.com/Correslol" target="_blank" rel="noopener">@Correslol · Sérgio Fiorini ↗</a><p class="muted small">Cada movimentação tem o link da matéria ou do post original. Parte dos posts foi consultada em versões públicas indexadas. O painel não recebe atualizações automáticas.</p><h3 style="margin-top:22px">Referências de cadastro</h3><a href="https://maisesports.com.br/contratos/league-of-legends" target="_blank" rel="noopener">Mais Esports · contratos de LoL ↗</a><a href="https://www.sheepesports.com/en/lol/transfers/cblol" target="_blank" rel="noopener">Sheep Esports · transferências CBLOL ↗</a><a href="https://lolesports.com/pt-BR/news/cblol2026" target="_blank" rel="noopener">Riot · estrutura da competição ↗</a></div><div class="panel"><h2>Como ler o mapa</h2><div class="listrow"><span><span class="pill confirmado">Confirmado</span> Anúncio oficial ou afirmação categórica de fonte; a ficha identifica a base</span></div><div class="listrow"><span><span class="pill encaminhado">Negociação / proposta</span> Conversas ou proposta reportadas, sem acordo confirmado</span></div><div class="listrow"><span><span class="pill interesse">Interesse</span> Consulta ou intenção de contratar / renovar</span></div><div class="listrow"><span><span class="pill saindo">Saída reportada</span> A ficha distingue saída prevista e anúncio oficial</span></div><div class="listrow"><span><span class="pill previsto">Permanência / retorno previsto</span> Expectativa ou projeção indicada na ficha, sem anúncio oficial</span></div><div class="listrow"><span><span class="pill indefinido">Indefinido</span> Futuro em aberto ou negociação travada</span></div><div class="listrow"><span><span class="pill oferecido">Oferecido / disponível</span> Contato do jogador ou disponibilidade declarada</span></div><div class="listrow"><span><span class="pill vinculado">Vínculo vigente em 2027</span> Contrato verificado; não confirma escalação ou titularidade</span></div><div class="listrow"><span><span class="pill incerto">Incerto</span> A fonte indica o nome no elenco, mas a permanência ou a vaga está em dúvida</span></div><p class="notice">O mapa reúne chegadas, retornos, permanências e renovações com fonte. Saídas e situações indefinidas ficam na Central. Um nome pode aparecer em vários times; os cards não representam uma escalação fechada. Comissão técnica, projetos e destinos fora das oito equipes aparecem na Central.</p><p class="notice">Notícias repetidas são reunidas por jogador e equipe. Na visão de 2027, jogadores sem contrato ou com término até 2026 aparecem como Agente Livre. A data original é preservada na ficha; vínculos sem término verificável aparecem como não informados. Ausência de rumor registrado não significa ausência de conversas.</p><p class="notice">A pesquisa cobre as publicações públicas localizadas nas fontes indicadas; posts removidos ou não indexados podem não aparecer. Registros adicionados por você ficam salvos neste navegador.</p></div></div></section>
+<footer class="footer"><span>RIFT MERCADO • Protótipo independente, sem vínculo com Riot Games ou organizações.</span><span>Dados locais • Última atualização: 06 nov 2026 • Sem sincronização automática</span></footer></div>
+<div id="modalRoot"></div><div id="toast" class="toast hidden"></div>
+<script>
+const contractSource='https://maisesports.com.br/contratos/league-of-legends';const xynoSource='https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027';
+const teams=['FURIA','LOUD','Keyd Stars','paiN Gaming','RED Canids','Fluxo','LOS','Leviatán'];const lanes=['TOP','JNG','MID','ADC','SUP'];
+// Formato: nick, equipe de referência em 2026, rota, residência competitiva, fim registrado. Datas não garantem permanência.
+const initial=[
+['Guigo','FURIA','TOP','BR','16/11/2026'],['Tatu','FURIA','JNG','BR','15/11/2027'],['Tutsz','FURIA','MID','BR','15/11/2027'],
+['Xyno','LOUD','TOP','BR','16/11/2026'],['Sinatra','LOUD','JNG','BR','20/11/2028'],['Kaze','LOUD','MID','BR','15/11/2027'],['Mago','LOUD','MID','BR','16/11/2026'],['Rabelo','LOUD','ADC','BR','20/11/2028'],['uZent','LOUD','SUP','BR','15/11/2027'],
+['Zekas','Keyd Stars','TOP','BR','20/11/2028'],['Disamis','Keyd Stars','JNG','BR','20/11/2028'],['Mireu','Keyd Stars','MID','IMPORT','15/11/2027'],['ceo','Keyd Stars','ADC','BR','16/11/2026'],['scamber','Keyd Stars','SUP','IMPORT','15/11/2027'],['SUPERCLEBER','Keyd Stars','TOP','BR','15/11/2027'],['sarolu','Keyd Stars','JNG','BR','16/11/2026'],['Qats','Keyd Stars','MID','BR','15/11/2027'],['BUERO','Keyd Stars','ADC','BR','20/11/2028'],['zay','Keyd Stars','SUP','BR','20/11/2028'],
+['Boal','paiN Gaming','TOP','BR','15/11/2027'],['CarioK','paiN Gaming','JNG','BR','16/11/2026'],['Samkz','paiN Gaming','JNG','BR','15/11/2027'],['Keine','paiN Gaming','MID','IMPORT','16/11/2026'],['Namiru','paiN Gaming','MID','BR','15/11/2027'],['Trigger','paiN Gaming','ADC','IMPORT','16/11/2026'],['Marvin','paiN Gaming','ADC','BR','16/11/2026'],['Kuri','paiN Gaming','SUP','BR','16/11/2026'],
+['zynts','RED Canids','TOP','BR','16/11/2026'],['STEPZ','RED Canids','JNG','BR','15/11/2027'],['Fuuu','RED Canids','MID','BR','16/11/2026'],['Morttheus','RED Canids','ADC','BR','16/11/2026'],['frosty','RED Canids','SUP','BR','15/11/2027'],['Manel','RED Canids','SUP','BR','15/11/2027'],
+['Zothve','Fluxo','TOP','BR','16/11/2026'],['curty','Fluxo','TOP','BR','16/11/2026'],['Peach','Fluxo','JNG','IMPORT','16/11/2026'],['hauz','Fluxo','MID','BR','16/11/2026'],['cody','Fluxo','MID','BR','16/11/2026'],['BAO','Fluxo','ADC','IMPORT','16/11/2026'],['ProDelta','Fluxo','SUP','BR','16/11/2026'],['Momochi','Fluxo','SUP','BR','16/11/2026'],
+['Duduhh','LOS','ADC','BR','15/11/2027'],['Ackerman','LOS','SUP','BR','16/11/2026']
+].map(([name,team,lane,residency,end])=>({id:name.toLowerCase().replace(/[^a-z0-9]/g,''),name,team,lane,residency,end,source:contractSource}));
+const playerCountries = {
+  "kaze": {
+    "name": "Argentina",
+    "code": "ar",
+    "source": "https://maisesports.com.br/jogadores/kaze-lucas-fe"
+  },
+  "sinatra": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/sinatra"
+  },
+  "tatu": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/tatu"
+  },
+  "rabelo": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/rabelo"
+  },
+  "tutsz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/tutsz"
+  },
+  "xyno": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/xyno"
+  },
+  "guigo": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/guigo"
+  },
+  "mireu": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/mireu"
+  },
+  "sarolu": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/sarolu"
+  },
+  "scamber": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/scamber"
+  },
+  "supercleber": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/supercleber"
+  },
+  "uzent": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/uzent"
+  },
+  "zekas": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/zekas"
+  },
+  "disamis": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/disamis"
+  },
+  "ceo": {
+    "name": "Argentina",
+    "code": "ar",
+    "source": "https://maisesports.com.br/jogadores/ceo"
+  },
+  "keine": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/keine"
+  },
+  "namiru": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/namiru"
+  },
+  "cariok": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/cariok"
+  },
+  "buero": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/buero"
+  },
+  "samkz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/samkz"
+  },
+  "qats": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/qats"
+  },
+  "frosty": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/frosty-jose-eduardo-leal"
+  },
+  "zynts": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/zynts"
+  },
+  "marvin": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/marvin"
+  },
+  "fuuu": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/fuuu"
+  },
+  "morttheus": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/morttheus"
+  },
+  "stepz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/stepz"
+  },
+  "bao": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://lol.fandom.com/wiki/BAO_(Jeong_Hyeon-woo)"
+  },
+  "cody": {
+    "name": "Chile",
+    "code": "cl",
+    "source": "https://maisesports.com.br/jogadores/cody"
+  },
+  "zothve": {
+    "name": "Chile",
+    "code": "cl",
+    "source": "https://maisesports.com.br/jogadores/zothve"
+  },
+  "manel": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/manel"
+  },
+  "curty": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/curty"
+  },
+  "prodelta": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/prodelta"
+  },
+  "hauz": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/hauz"
+  },
+  "peach": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/peach"
+  },
+  "momochi": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/momochi"
+  },
+  "ackerman": {
+    "name": "Argentina",
+    "code": "ar",
+    "source": "https://maisesports.com.br/jogadores/ackerman"
+  },
+  "duduhh": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://maisesports.com.br/jogadores/duduhh"
+  },
+  "trigger": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://maisesports.com.br/jogadores/trigger-3beff324-1c2a-4075-b388-910f5b881675"
+  },
+  "kuri": {
+    "name": "Coreia do Sul",
+    "code": "kr",
+    "source": "https://lol.fandom.com/wiki/Kuri"
+  },
+  "mago": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://www.strafe.com/player/jean-mago-lol-1fd7bd/"
+  },
+  "boal": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://lol.fandom.com/wiki/Boal"
+  },
+  "zay": {
+    "name": "Brasil",
+    "code": "br",
+    "source": "https://liquipedia.net/leagueoflegends/Zay"
+  }
+};
+initial.forEach(p=>{p.country=playerCountries[p.id];p.contractTeam=p.team;});
+// Current-market additions and sourced corrections; initial remains the contract reference base.
+initial.push(...[
+  {
+    "id": "ayu",
+    "name": "Ayu",
+    "team": "FURIA",
+    "lane": "ADC",
+    "residency": "BR",
+    "end": "2026",
+    "country": {
+      "code": "br",
+      "name": "Brasil",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+    },
+    "contractTeam": "FURIA",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+  },
+  {
+    "id": "jojo",
+    "name": "JoJo",
+    "team": "FURIA",
+    "lane": "SUP",
+    "residency": "BR",
+    "end": "2026",
+    "country": {
+      "code": "br",
+      "name": "Brasil",
+      "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+    },
+    "contractTeam": "FURIA",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en"
+  },
+  {
+    "id": "brance",
+    "name": "Brance",
+    "team": "Estral Esports",
+    "lane": "ADC",
+    "residency": "BR",
+    "end": "16/11/2026",
+    "country": {
+      "code": "br",
+      "name": "Brasil",
+      "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+    },
+    "contractTeam": "Estral Esports",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+  },
+  {
+    "id": "bwipo",
+    "name": "Bwipo",
+    "team": "Estral Esports",
+    "lane": "JNG",
+    "residency": "IMPORT",
+    "end": "16/11/2026",
+    "country": {
+      "code": "be",
+      "name": "Bélgica",
+      "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+    },
+    "contractTeam": "Estral Esports",
+    "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en"
+  },
+  {
+    "id": "omon",
+    "name": "OMON",
+    "team": "Galions",
+    "lane": "MID",
+    "residency": "IMPORT",
+    "end": "16/11/2026",
+    "contractNote": "Sheep Esports (perfil do jogador, 06/11/2026): contrato ativo com a Galions até 16/11/2026.",
+    "country": {
+      "code": "cz",
+      "name": "Tchéquia",
+      "source": "https://liquipedia.net/leagueoflegends/OMON"
+    },
+    "contractTeam": "Galions",
+    "source": "https://liquipedia.net/leagueoflegends/OMON"
+  },
+  {
+    "id": "hena",
+    "name": "Hena",
+    "team": "paiN Gaming",
+    "lane": "ADC",
+    "residency": "IMPORT",
+    "end": "",
+    "country": {
+      "code": "kr",
+      "name": "Coreia do Sul",
+      "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en"
+    },
+    "contractTeam": "paiN Gaming",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en"
+  },
+  {
+    "id": "jeskla",
+    "name": "Jeskla",
+    "team": "Keyd Stars",
+    "lane": "ADC",
+    "residency": "IMPORT",
+    "end": "",
+    "contractState": "semRegistro",
+    "contractNote": "Sheep Esports (perfil do jogador, 06/11/2026): nenhum contrato registrado.",
+    "country": {
+      "code": "se",
+      "name": "Suécia",
+      "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+    },
+    "contractTeam": "Keyd Stars",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+  },
+  {
+    "id": "curse",
+    "name": "Curse",
+    "team": "LOS",
+    "lane": "JNG",
+    "residency": "BR",
+    "end": "15/11/2027",
+    "country": {
+      "code": "br",
+      "name": "Brasil",
+      "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+    },
+    "contractTeam": "LOS",
+    "source": "https://x.com/SheepEsportsBR/status/2117255102277050845"
+  },
+  {
+    "id": "zest",
+    "name": "Zest",
+    "team": "LOS",
+    "lane": "TOP",
+    "residency": "IMPORT",
+    "end": "2026",
+    "country": {
+      "code": "kr",
+      "name": "Coreia do Sul",
+      "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+    },
+    "contractTeam": "LOS",
+    "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+  },
+  {
+    "id": "feisty",
+    "name": "Feisty",
+    "team": "LOS",
+    "lane": "MID",
+    "residency": "IMPORT",
+    "end": "2026",
+    "country": {
+      "code": "kr",
+      "name": "Coreia do Sul",
+      "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+    },
+    "contractTeam": "LOS",
+    "source": "https://www.sheepesports.com/us/articles/cblol-all-players-out-of-contract-in-2026/en"
+  }
+]);
+initial.push({"id":"ceos","name":"Ceos","team":"paiN Gaming","lane":"SUP","residency":"BR","end":"","contractTeam":"paiN Gaming","country":{"code":"br","name":"Brasil","source":"https://maisesports.com.br/jogadores/ceos"},"source":"https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en","contractNote":"A Sheep informa que Ceos disputou a última etapa pela paiN, mas que o prazo do contrato não aparece no GCD. Não confundir com ceo, ADC argentino."});
+const playerUpdates={
+  "xyno": {
+    "end": "2027",
+    "contractTeam": "Keyd Stars",
+    "contractTeamShort": "Keyd",
+    "loanTeam": "LOUD",
+    "loanEnd": "16/11/2026",
+    "contractNote": "Showtana reportou em 30/10/2026 o contrato com a Keyd até 2027 e a proposta de compra da LOUD. A listagem anterior de 2026 permanece apenas como histórico.",
+    "source": "https://x.com/luisshowtana/status/2116216739079836116",
+    "loanSource": "https://x.com/luisshowtana/status/2116216739079836116"
+  },
+  "morttheus": {
+    "end": "2028",
+    "contractTeam": "Keyd Stars",
+    "contractTeamShort": "Keyd",
+    "loanTeam": "RED Canids",
+    "loanEnd": "2026",
+    "contractNote": "Contrato com a Keyd até 2028, segundo a Sheep em 04/11/2026. A RED não deve exercer a compra e o retorno é previsto para 2027.",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+    "loanSource": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en"
+  },
+  "mireu": {
+    "end": "",
+    "contractTeam": "Sem vínculo informado",
+    "contractState": "livre",
+    "source": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+    "contractNote": "Saída anunciada em 06/10; reportado como livre no mercado em 02/11/2026. O antigo término em 2027 não representa um vínculo vigente."
+  },
+  "ceo": {
+    "end": "",
+    "contractTeam": "Sem vínculo informado",
+    "contractState": "livre",
+    "source": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+    "contractNote": "Reportado sem contrato em 01/11/2026."
+  },
+  "zekas": {
+    "end": "",
+    "contractTeam": "Não informado",
+    "contractNote": "Saída anunciada em 06/10/2026; não há novo vínculo confirmado nas fontes consultadas.",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+  },
+  "jeskla": {
+    "end": "",
+    "contractTeam": "Não informado",
+    "contractNote": "Saída anunciada em 06/10/2026; não há novo vínculo confirmado nas fontes consultadas.",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692"
+  },
+  "bwipo": {
+    "end": "",
+    "contractTeam": "Sem vínculo informado",
+    "contractState": "livre",
+    "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+    "contractNote": "Reportado como livre no mercado pela Sheep em 22/10/2026."
+  },
+  "stepz": {
+    "country": {
+      "code": "ve",
+      "name": "Venezuela",
+      "source": "https://x.com/SheepEsportsBR/status/2112194797020582175"
+    }
+  },
+  "curse": {
+    "end": "15/11/2027",
+    "source": "https://maisesports.com.br/contratos/league-of-legends"
+  },
+  "scamber": {
+    "end": "",
+    "contractTeam": "Não informado",
+    "contractNote": "A Keyd anunciou sua saída em 04/11/2026. Não há novo vínculo confirmado nas fontes consultadas.",
+    "source": "https://x.com/VivoKeyd/status/2118085941340352565"
+  }
+};
+initial.forEach(p=>Object.assign(p,playerUpdates[p.id]||{}));
+const seededMoves=[
+  {
+    "id": "seed-xyno-1",
+    "player": "Xyno",
+    "team": "LOUD",
+    "lane": "TOP",
+    "status": "encaminhado",
+    "title": "LOUD negocia a compra de Xyno",
+    "description": "A LOUD segue negociando. Showtana relata proposta de compra à Keyd e divergência inicial sobre o modelo do negócio. Não há acordo anunciado.",
+    "date": "30/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+    "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+    "sourceKey": "xyno",
+    "relatedSources": [
+      {
+        "date": "30/10/2026",
+        "url": "https://x.com/luisshowtana/status/2116216739079836116",
+        "author": "Showtana (@luisshowtana)"
+      },
+      {
+        "date": "05/11/2026",
+        "url": "https://x.com/luisshowtana/status/2118465209283272767",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "movementType": "compra",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-xyno-2",
+    "player": "Xyno",
+    "team": "FURIA",
+    "lane": "TOP",
+    "status": "interesse",
+    "title": "FURIA prioriza Xyno para o topo",
+    "description": "Correslol aponta Xyno como alvo. A situação depende da negociação LOUD–Keyd; interesse não significa liberação ou acordo.",
+    "date": "30/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+    "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+    "sourceKey": "xyno",
+    "relatedSources": [
+      {
+        "date": "30/10/2026",
+        "url": "https://x.com/luisshowtana/status/2116216739079836116",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-xyno-3",
+    "player": "Xyno",
+    "team": "Keyd Stars",
+    "lane": "TOP",
+    "status": "interesse",
+    "title": "Keyd quer contar com Xyno",
+    "description": "A Keyd considera seu retorno. Segundo Showtana, se a LOUD desistir da compra, a Keyd exige a multa integral para negociá-lo.",
+    "date": "30/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+    "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+    "sourceKey": "xyno",
+    "newsOnly": true,
+    "relatedSources": [
+      {
+        "date": "30/10/2026",
+        "url": "https://x.com/luisshowtana/status/2116216739079836116",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "movementType": "retorno",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-frosty-furia",
+    "player": "frosty",
+    "team": "FURIA",
+    "lane": "SUP",
+    "status": "encaminhado",
+    "title": "FURIA apresenta proposta por frosty",
+    "description": "A FURIA enviou proposta de compra à RED. A reportagem não informa aceite ou contratação concluída.",
+    "date": "05/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "frosty",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-frosty-pain",
+    "player": "frosty",
+    "team": "paiN Gaming",
+    "lane": "SUP",
+    "status": "interesse",
+    "title": "paiN consulta frosty",
+    "description": "A paiN consultou a situação do suporte, sem apresentar proposta oficial até a publicação.",
+    "date": "05/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "frosty",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-jojo-furia",
+    "player": "JoJo",
+    "team": "FURIA",
+    "lane": "SUP",
+    "status": "saindo",
+    "title": "Saída de JoJo é apontada como iminente",
+    "description": "Apesar da preferência de JoJo por renovar, a FURIA procura outro suporte. Saída reportada, ainda sem anúncio; aposentadoria não é esperada.",
+    "date": "05/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "frosty",
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-brance-red",
+    "player": "Brance",
+    "team": "RED Canids",
+    "lane": "ADC",
+    "status": "encaminhado",
+    "title": "RED Canids apresenta proposta por Brance",
+    "description": "Brance recebeu proposta da organização. Há concorrência entre RED e Fluxo; a reportagem não aponta acordo fechado.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "brance",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-brance-fluxo",
+    "player": "Brance",
+    "team": "Fluxo",
+    "lane": "ADC",
+    "status": "encaminhado",
+    "title": "Fluxo apresenta proposta por Brance",
+    "description": "Brance recebeu proposta da organização. Há concorrência entre RED e Fluxo; a reportagem não aponta acordo fechado.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "brance",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-guigo-fluxo",
+    "player": "Guigo",
+    "team": "Fluxo",
+    "lane": "TOP",
+    "status": "interesse",
+    "title": "Fluxo tem interesse em Guigo",
+    "description": "A organização monitora o jogador para 2027 e pretende avançar conversas. Não há contratação confirmada.",
+    "date": "28/10/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "fluxo",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-cariok-fluxo",
+    "player": "CarioK",
+    "team": "Fluxo",
+    "lane": "JNG",
+    "status": "interesse",
+    "title": "Fluxo tem interesse em CarioK",
+    "description": "A organização monitora o jogador para 2027 e pretende avançar conversas. Não há contratação confirmada.",
+    "date": "28/10/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "fluxo",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-momochi-fluxo",
+    "player": "Momochi",
+    "team": "Fluxo",
+    "lane": "SUP",
+    "status": "previsto",
+    "title": "Fluxo espera manter Momochi",
+    "description": "A reportagem aponta expectativa de permanência do suporte; não há renovação oficial anunciada.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "brance",
+    "relatedSources": [
+      {
+        "date": "28/10/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-fluxo-w7m-interested-in-guigo-and-cariok-for-2027/en",
+        "author": "Showtana / Sheep Esports"
+      }
+    ],
+    "movementType": "permanencia",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-morttheus-red",
+    "player": "Morttheus",
+    "team": "RED Canids",
+    "lane": "ADC",
+    "status": "saindo",
+    "title": "Morttheus deve encerrar empréstimo na RED",
+    "description": "A RED decidiu não exercer a compra. O retorno à Keyd é reportado para a próxima temporada.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "brance",
+    "relatedSources": [
+      {
+        "date": "14/10/2026",
+        "url": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en",
+        "author": "Showtana e Bruna Andrade / Sheep Esports"
+      }
+    ],
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-morttheus-keyd",
+    "player": "Morttheus",
+    "team": "Keyd Stars",
+    "lane": "ADC",
+    "status": "confirmado",
+    "title": "Showtana confirma retorno de Morttheus à Keyd",
+    "description": "Ao ser perguntado se Morttheus já era da Keyd para 2027, Showtana respondeu afirmativamente. Confirmação jornalística do retorno, sem novo anúncio oficial identificado.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118037252345340250",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "morttheusReply",
+    "relatedSources": [
+      {
+        "date": "04/11/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+        "author": "Showtana / Sheep Esports"
+      },
+      {
+        "date": "14/10/2026",
+        "url": "https://www.sheepesports.com/pt/articles/sources-morttheus-set-to-leave-red-canids-and-return-to-vivo-keyd-stars-in-2027/en",
+        "author": "Showtana e Bruna Andrade / Sheep Esports"
+      }
+    ],
+    "movementType": "retorno",
+    "evidenceKind": "apuracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-bwipo-red",
+    "player": "Bwipo",
+    "team": "RED Canids",
+    "lane": "JNG",
+    "status": "encaminhado",
+    "title": "RED negocia com Bwipo para a jungle",
+    "description": "A RED negocia com Bwipo para a jungle. Showtana esclareceu que o acordo não está encaminhado; negociação em andamento não equivale a contratação fechada.",
+    "date": "22/10/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+    "author": "Showtana e Bruna Andrade / Sheep Esports",
+    "sourceKey": "bwipo",
+    "relatedSources": [
+      {
+        "url": "https://x.com/luisshowtana/status/2113325552165662722",
+        "date": "22/10/2026",
+        "author": "Showtana (@luisshowtana)",
+        "title": "Negociação da RED não é acordo encaminhado"
+      },
+      {
+        "date": "04/11/2026",
+        "url": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+        "author": "Showtana / Sheep Esports"
+      }
+    ],
+    "movementType": "chegada",
+    "evidenceKind": "apuracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-bwipo-loud",
+    "player": "Bwipo",
+    "team": "LOUD",
+    "lane": "JNG",
+    "status": "encaminhado",
+    "title": "Bwipo conversa com a LOUD sobre uma possível chegada",
+    "description": "Showtana informou que Bwipo conversou com a LOUD. O card passa de oferecido a conversas/negociação inicial; não há proposta aceita ou acordo. Depois, o jornalista condicionou mudanças ao novo treinador.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118026089784119626",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "bwipoLoudReply",
+    "newsOnly": true,
+    "relatedSources": [
+      {
+        "date": "22/10/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-red-canids-negotiating-with-bwipo-for-2027/en",
+        "author": "Showtana e Bruna Andrade / Sheep Esports"
+      },
+      {
+        "date": "05/11/2026",
+        "url": "https://x.com/luisshowtana/status/2118465209283272767",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "movementType": "chegada",
+    "evidenceKind": "conversa",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-stepz-red",
+    "player": "STEPZ",
+    "team": "RED Canids",
+    "lane": "JNG",
+    "status": "indefinido",
+    "title": "Futuro de STEPZ segue indefinido",
+    "description": "Dificuldades com vistos e impasse na renegociação levaram a RED a avaliar alternativas. Saída não confirmada.",
+    "date": "19/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-stepz-tem-futuro-incerto-na-red-canids-diz-site",
+    "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports",
+    "sourceKey": "stepz",
+    "relatedSources": [
+      {
+        "date": "04/11/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+        "author": "Showtana / Sheep Esports"
+      }
+    ],
+    "movementType": "indefinido",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-bwipo-pain",
+    "player": "Bwipo",
+    "team": "paiN Gaming",
+    "lane": "JNG",
+    "status": "interesse",
+    "title": "paiN consulta Bwipo",
+    "description": "O jogador é uma opção consultada para a reformulação de 2027. Não há proposta aceita ou contratação anunciada.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "pain",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-ayu-pain",
+    "player": "Ayu",
+    "team": "paiN Gaming",
+    "lane": "ADC",
+    "status": "interesse",
+    "title": "paiN consulta Ayu",
+    "description": "O jogador é uma opção consultada para a reformulação de 2027. Não há proposta aceita ou contratação anunciada.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "pain",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-ceo-pain",
+    "player": "ceo",
+    "team": "paiN Gaming",
+    "lane": "ADC",
+    "status": "interesse",
+    "title": "paiN consulta ceo",
+    "description": "O jogador é uma opção consultada para a reformulação de 2027. Não há proposta aceita ou contratação anunciada.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "pain",
+    "relatedSources": [
+      {
+        "date": "01/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+        "author": "Sheep Esports Brasil"
+      }
+    ],
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-hena-pain",
+    "player": "Hena",
+    "team": "paiN Gaming",
+    "lane": "ADC",
+    "status": "saindo",
+    "title": "Hena não deve seguir na paiN",
+    "description": "A Sheep aponta a saída do ADC; a organização busca substituto. Trata-se de informação reportada, sem anúncio oficial nesta ficha.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "pain",
+    "relatedSources": [
+      {
+        "date": "04/11/2026",
+        "url": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+        "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports"
+      }
+    ],
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-cariok-pain",
+    "player": "CarioK",
+    "team": "paiN Gaming",
+    "lane": "JNG",
+    "status": "indefinido",
+    "title": "Permanência de CarioK é considerada improvável",
+    "description": "A Sheep considera baixas as chances de continuidade na paiN. Não há saída oficial nem destino confirmado.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/us/articles/sources-bwipo-and-ayu-on-pain-gaming-radar-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "pain",
+    "movementType": "indefinido",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-mireu-red",
+    "player": "Mireu",
+    "team": "RED Canids",
+    "lane": "MID",
+    "status": "interesse",
+    "title": "RED avalia Mireu",
+    "description": "Mireu, livre no mercado, é o nome mais bem avaliado pela RED para o meio segundo a publicação.",
+    "date": "02/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+    "author": "Sheep Esports Brasil",
+    "sourceKey": "mids",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-omon-red",
+    "player": "OMON",
+    "team": "RED Canids",
+    "lane": "MID",
+    "status": "interesse",
+    "title": "RED consulta OMON",
+    "description": "A RED consultou o mid da Galions, mas a possibilidade de uma vaga na LEC dificulta a abordagem.",
+    "date": "02/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+    "author": "Sheep Esports Brasil",
+    "sourceKey": "mids",
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-fuuu-red",
+    "player": "Fuuu",
+    "team": "RED Canids",
+    "lane": "MID",
+    "status": "indefinido",
+    "title": "RED avalia alternativas a Fuuu",
+    "description": "Fuuu não foi descartado, mas a equipe procura opções para a posição. Sua continuidade como titular permanece indefinida.",
+    "date": "04/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "brance",
+    "relatedSources": [
+      {
+        "date": "02/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2117287475458531665",
+        "author": "Sheep Esports Brasil"
+      }
+    ],
+    "movementType": "indefinido",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-zest-los",
+    "player": "Zest",
+    "team": "LOS",
+    "lane": "TOP",
+    "status": "interesse",
+    "title": "LOS quer renovar com Zest",
+    "description": "Kakavel declarou que deseja manter todo o elenco. A renovação deste jogador ainda está em aberto; o card indica intenção de renovar, não permanência confirmada.",
+    "date": "03/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+    "author": "Sheep Esports Brasil / declaração de Kakavel no MD3",
+    "sourceKey": "losRenew",
+    "relatedSources": [
+      {
+        "date": "02/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+        "author": "Sheep Esports Brasil"
+      }
+    ],
+    "movementType": "renovacao",
+    "evidenceKind": "declaracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-feisty-los",
+    "player": "Feisty",
+    "team": "LOS",
+    "lane": "MID",
+    "status": "interesse",
+    "title": "LOS quer renovar com Feisty",
+    "description": "Kakavel declarou que deseja manter todo o elenco. A renovação deste jogador ainda está em aberto; o card indica intenção de renovar, não permanência confirmada.",
+    "date": "03/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+    "author": "Sheep Esports Brasil / declaração de Kakavel no MD3",
+    "sourceKey": "losRenew",
+    "relatedSources": [
+      {
+        "date": "02/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+        "author": "Sheep Esports Brasil"
+      }
+    ],
+    "movementType": "renovacao",
+    "evidenceKind": "declaracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-ackerman-los",
+    "player": "Ackerman",
+    "team": "LOS",
+    "lane": "SUP",
+    "status": "interesse",
+    "title": "LOS quer renovar com Ackerman",
+    "description": "Kakavel declarou que deseja manter todo o elenco. A renovação deste jogador ainda está em aberto; o card indica intenção de renovar, não permanência confirmada.",
+    "date": "03/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+    "author": "Sheep Esports Brasil / declaração de Kakavel no MD3",
+    "sourceKey": "losRenew",
+    "relatedSources": [
+      {
+        "date": "02/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+        "author": "Sheep Esports Brasil"
+      }
+    ],
+    "movementType": "renovacao",
+    "evidenceKind": "declaracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-curse-los",
+    "player": "Curse",
+    "team": "LOS",
+    "lane": "JNG",
+    "status": "confirmado",
+    "title": "Curse é apontado como garantido na LOS para 2027",
+    "description": "A Sheep aponta o jogador como garantido para 2027. O registro de contratos lista término em 15/11/2027. A ficha distingue a apuração de um novo anúncio de renovação.",
+    "date": "02/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+    "author": "Sheep Esports Brasil",
+    "sourceKey": "los",
+    "relatedSources": [
+      {
+        "url": "https://maisesports.com.br/contratos/league-of-legends",
+        "date": "05/11/2026",
+        "author": "Mais Esports — consulta ao registro de contratos",
+        "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+      },
+      {
+        "date": "03/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+        "author": "Sheep Esports Brasil / declaração de Kakavel no MD3"
+      }
+    ],
+    "movementType": "permanencia",
+    "evidenceKind": "apuracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-duduhh-los",
+    "player": "Duduhh",
+    "team": "LOS",
+    "lane": "ADC",
+    "status": "confirmado",
+    "title": "Duduhh é apontado como garantido na LOS para 2027",
+    "description": "A Sheep aponta o jogador como garantido para 2027. O registro de contratos lista término em 15/11/2027. A ficha distingue a apuração de um novo anúncio de renovação.",
+    "date": "02/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2117255102277050845",
+    "author": "Sheep Esports Brasil",
+    "sourceKey": "los",
+    "relatedSources": [
+      {
+        "url": "https://maisesports.com.br/contratos/league-of-legends",
+        "date": "05/11/2026",
+        "author": "Mais Esports — consulta ao registro de contratos",
+        "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+      },
+      {
+        "date": "03/11/2026",
+        "url": "https://x.com/SheepEsportsBR/status/2117731160340246652",
+        "author": "Sheep Esports Brasil / declaração de Kakavel no MD3"
+      }
+    ],
+    "movementType": "permanencia",
+    "evidenceKind": "apuracao",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-mireu-keyd-exit",
+    "player": "Mireu",
+    "team": "Keyd Stars",
+    "lane": "MID",
+    "status": "saindo",
+    "title": "Keyd anuncia saída de Mireu",
+    "description": "Desligamento oficial divulgado pela organização e reportado pela Sheep e pelo Mais Esports.",
+    "date": "06/10/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+    "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+    "sourceKey": "keyd",
+    "official": true,
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-zekas-keyd-exit",
+    "player": "Zekas",
+    "team": "Keyd Stars",
+    "lane": "TOP",
+    "status": "saindo",
+    "title": "Keyd anuncia saída de Zekas",
+    "description": "Desligamento oficial divulgado pela organização e reportado pela Sheep e pelo Mais Esports.",
+    "date": "06/10/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+    "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+    "sourceKey": "keyd",
+    "official": true,
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-jeskla-keyd-exit",
+    "player": "Jeskla",
+    "team": "Keyd Stars",
+    "lane": "ADC",
+    "status": "saindo",
+    "title": "Keyd anuncia saída de Jeskla",
+    "description": "Desligamento oficial divulgado pela organização e reportado pela Sheep e pelo Mais Esports.",
+    "date": "06/10/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+    "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+    "sourceKey": "keyd",
+    "official": true,
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-disamis-keyd",
+    "player": "Disamis",
+    "team": "Keyd Stars",
+    "lane": "JNG",
+    "status": "confirmado",
+    "title": "Showtana descarta saída de Disamis da Keyd",
+    "description": "Questionado sobre a chance de Disamis sair, Showtana respondeu que é zero. Permanência confirmada pela apuração do jornalista; não é novo anúncio de renovação.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118026731986858362",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "disamisReply",
+    "movementType": "permanencia",
+    "evidenceKind": "apuracao",
+    "relatedSources": [
+      {
+        "date": "30/10/2026",
+        "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+        "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+      },
+      {
+        "url": "https://maisesports.com.br/contratos/league-of-legends",
+        "date": "05/11/2026",
+        "author": "Mais Esports — consulta ao registro de contratos",
+        "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-scamber-keyd",
+    "player": "scamber",
+    "team": "Keyd Stars",
+    "lane": "SUP",
+    "status": "saindo",
+    "title": "Keyd anuncia saída de scamber",
+    "description": "A Keyd Stars anunciou a despedida do suporte em 04/11. A informação substitui o plano anterior de permanência; scamber sai da planilha e segue no histórico da Central.",
+    "date": "04/11/2026",
+    "source": "https://x.com/VivoKeyd/status/2118085941340352565",
+    "author": "Keyd Stars — anúncio oficial",
+    "sourceKey": "scamberExit",
+    "movementType": "saida",
+    "evidenceKind": "oficial",
+    "official": true,
+    "relatedSources": [
+      {
+        "url": "https://x.com/luisshowtana/status/2118058335329308786",
+        "date": "04/11/2026",
+        "author": "Showtana (@luisshowtana)",
+        "title": "Correção: a Keyd também faz testes de suporte"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-guigo-furia",
+    "player": "Guigo",
+    "team": "FURIA",
+    "lane": "TOP",
+    "status": "saindo",
+    "title": "FURIA considera a saída de Guigo",
+    "description": "A apuração aponta sua saída nos planos da organização. Ainda sem anúncio oficial de desligamento.",
+    "date": "30/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+    "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+    "sourceKey": "xyno",
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-ayu-furia",
+    "player": "Ayu",
+    "team": "FURIA",
+    "lane": "ADC",
+    "status": "previsto",
+    "title": "Renovação de Ayu com a FURIA é considerada provável",
+    "description": "Showtana considera difícil Ayu não renovar, mas o ADC avaliará projetos e valorização salarial. Agente Livre na visão de 2027; renovação ainda não confirmada.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118037376161169506",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "ayuReply",
+    "movementType": "renovacao",
+    "evidenceKind": "expectativa",
+    "relatedSources": [
+      {
+        "url": "https://x.com/luisshowtana/status/2118025538681905403",
+        "date": "04/11/2026",
+        "author": "Showtana (@luisshowtana)",
+        "title": "Ayu vai avaliar projetos no mercado"
+      },
+      {
+        "date": "30/10/2026",
+        "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+        "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-tatu-flyquest",
+    "player": "Tatu",
+    "team": "FlyQuest",
+    "lane": "JNG",
+    "status": "encaminhado",
+    "title": "FlyQuest apresenta proposta por Tatu",
+    "description": "Correslol relata proposta da FlyQuest ao jogador da FURIA. Não há aceite ou transferência confirmada.",
+    "date": "30/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+    "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+    "sourceKey": "xyno",
+    "newsOnly": true,
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-ayu-flyquest",
+    "player": "Ayu",
+    "team": "FlyQuest",
+    "lane": "ADC",
+    "status": "encaminhado",
+    "title": "FlyQuest apresenta proposta por Ayu",
+    "description": "Correslol relata proposta da FlyQuest ao jogador da FURIA. Não há aceite ou transferência confirmada.",
+    "date": "30/10/2026",
+    "source": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+    "author": "Sérgio “Correslol” Fiorini / Mais Esports",
+    "sourceKey": "xyno",
+    "newsOnly": true,
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-raise-loud",
+    "player": "Raise",
+    "team": "LOUD",
+    "lane": "COMISSÃO",
+    "status": "saindo",
+    "title": "LOUD anuncia saída de Raise",
+    "description": "O treinador deixa a organização. Saída oficial reportada pelo Mais Esports e pela Sheep.",
+    "date": "05/11/2026",
+    "source": "https://x.com/maisesportsbr/status/2118464641013862607",
+    "author": "Mais Esports / anúncio da LOUD",
+    "sourceKey": "raise",
+    "newsOnly": true,
+    "official": true,
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-loud-coach",
+    "player": "Comissão técnica",
+    "team": "LOUD",
+    "lane": "COMISSÃO",
+    "status": "indefinido",
+    "title": "LOUD busca novo head coach",
+    "description": "Showtana informa que mudanças no elenco dependerão do novo treinador. A publicação não aponta um substituto definido.",
+    "date": "05/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118465209283272767",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "loudCoach",
+    "newsOnly": true,
+    "movementType": "indefinido",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-keyd-coaches",
+    "player": "SMILEY e Benvi",
+    "team": "Keyd Stars",
+    "lane": "COMISSÃO",
+    "status": "saindo",
+    "title": "Keyd também muda comissão técnica",
+    "description": "A saída de SMILEY e Benvi foi anunciada junto aos desligamentos dos jogadores.",
+    "date": "06/10/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2107587731178000692",
+    "author": "Sheep Esports Brasil / anúncio da Keyd Stars",
+    "sourceKey": "keyd",
+    "newsOnly": true,
+    "official": true,
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-keyd-academy",
+    "player": "Academy",
+    "team": "Keyd Stars",
+    "lane": "PROJETO",
+    "status": "confirmado",
+    "title": "Keyd encerra equipe Academy para 2027",
+    "description": "A organização anunciou que deixará de manter elenco no tier 2, redirecionando recursos para outras modalidades.",
+    "date": "13/10/2026",
+    "source": "https://x.com/maisesportsbr/status/2110029098051310026",
+    "author": "Mais Esports / anúncio da Keyd Stars",
+    "sourceKey": "academy",
+    "newsOnly": true,
+    "official": true,
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-keyd-tryouts",
+    "player": "Elenco",
+    "team": "Keyd Stars",
+    "lane": "PROJETO",
+    "status": "indefinido",
+    "title": "Keyd realiza tryouts",
+    "description": "Showtana informou testes na Keyd e corrigiu que também há tryouts para suporte. Não há substituto confirmado para scamber.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118036782679732538",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "tryouts",
+    "newsOnly": true,
+    "movementType": "indefinido",
+    "relatedSources": [
+      {
+        "url": "https://x.com/luisshowtana/status/2118058335329308786",
+        "date": "04/11/2026",
+        "author": "Showtana (@luisshowtana)",
+        "title": "Correção: a Keyd também faz testes de suporte"
+      },
+      {
+        "url": "https://x.com/VivoKeyd/status/2118085941340352565",
+        "date": "04/11/2026",
+        "author": "Keyd Stars — anúncio oficial",
+        "title": "Despedida de scamber"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-croc-market",
+    "player": "Croc",
+    "team": "Mercado",
+    "lane": "JNG",
+    "status": "oferecido",
+    "title": "Croc está aberto a voltar ao competitivo",
+    "description": "O jogador declarou preferência por retornar como atleta, mas considera comissão técnica e tier 2. Não há destino ou proposta específica reportada.",
+    "date": "07/10/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2107863578191569017",
+    "author": "Sheep Esports Brasil / declaração de Croc",
+    "sourceKey": "croc",
+    "newsOnly": true,
+    "movementType": "chegada",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-keine-pain",
+    "player": "Keine",
+    "team": "paiN Gaming",
+    "lane": "MID",
+    "status": "saindo",
+    "title": "Keine retorna para serviço militar",
+    "description": "O Mais Esports relata situação semelhante à de Hena: retorno para serviço militar. Namiru já o substituiu no fim do segundo split.",
+    "date": "04/11/2026",
+    "source": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+    "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports",
+    "sourceKey": "painMais",
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-ceo-keyd-exit",
+    "player": "ceo",
+    "team": "Keyd Stars",
+    "lane": "ADC",
+    "status": "saindo",
+    "title": "ceo fica livre após vínculo com a Keyd",
+    "description": "A Sheep informa que o ADC está sem contrato após o fim do vínculo e foi consultado pela paiN.",
+    "date": "01/11/2026",
+    "source": "https://x.com/SheepEsportsBR/status/2116908122312720516",
+    "author": "Sheep Esports Brasil",
+    "sourceKey": "ceo",
+    "movementType": "saida",
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-tatu-furia",
+    "player": "Tatu",
+    "team": "FURIA",
+    "lane": "JNG",
+    "status": "confirmado",
+    "movementType": "permanencia",
+    "title": "Tatu tem vínculo oficial com a FURIA até 2027",
+    "description": "A FURIA anunciou a compra definitiva até o fim de 2027. O vínculo segue listado. É confirmação contratual, não um novo anúncio de escalação; a proposta externa reportada continua no histórico.",
+    "date": "21/08/2025",
+    "source": "https://maisesports.com.br/lta-sul-2025-jornalista-revela-valor-estimado-da-transferencia-de-tatu",
+    "author": "Ian Teixeira / Mais Esports — anúncio da FURIA",
+    "sourceKey": "tatuOfficial",
+    "evidenceKind": "oficial",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+        "author": "Showtana / Sheep Esports"
+      },
+      {
+        "date": "30/10/2026",
+        "url": "https://maisesports.com.br/cblol-2026-a-decisao-de-xyno-pode-mudar-o-cblol-2027",
+        "author": "Sérgio “Correslol” Fiorini / Mais Esports"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-tutsz-furia",
+    "player": "Tutsz",
+    "team": "FURIA",
+    "lane": "MID",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "Tutsz tem contrato com a FURIA até 2027",
+    "description": "A Sheep confirma vínculo até novembro de 2027. Não foi localizado anúncio novo de permanência ou transferência. O card representa contrato vigente, não garantia de titularidade.",
+    "date": "05/11/2026",
+    "source": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+    "author": "Showtana / Sheep Esports",
+    "sourceKey": "frosty",
+    "evidenceKind": "contrato",
+    "relatedSources": [],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-boal-pain",
+    "player": "Boal",
+    "team": "paiN Gaming",
+    "lane": "TOP",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "Boal tem vínculo com a paiN até 2027",
+    "description": "O registro lista contrato até 15/11/2027. Showtana considera muito provável que mudanças se concentrem em jungle e ADC. Não há novo anúncio de renovação identificado.",
+    "date": "05/11/2026",
+    "source": "https://maisesports.com.br/contratos/league-of-legends",
+    "author": "Mais Esports — consulta ao registro de contratos",
+    "sourceKey": "contractReview",
+    "evidenceKind": "contrato",
+    "relatedSources": [
+      {
+        "url": "https://x.com/luisshowtana/status/2118037871508795566",
+        "date": "04/11/2026",
+        "author": "Showtana (@luisshowtana)",
+        "title": "Resposta sobre mudanças da paiN apenas na jungle e ADC"
+      }
+    ],
+    "reviewedAt": "2026-11-05",
+    "dateKind": "consulta"
+  },
+  {
+    "id": "seed-ceos-pain",
+    "player": "Ceos",
+    "team": "paiN Gaming",
+    "lane": "SUP",
+    "status": "previsto",
+    "movementType": "permanencia",
+    "title": "Ceos tem retorno previsto na paiN",
+    "description": "A previsão se apoia na resposta de Showtana sobre mudanças concentradas em jungle e ADC. A consulta da paiN por frosty continua válida. Não há duração contratual nem renovação oficial confirmada.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118037871508795566",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "painReply",
+    "evidenceKind": "inferencia",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+        "author": "Showtana / Sheep Esports"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-namiru-pain",
+    "player": "Namiru",
+    "team": "paiN Gaming",
+    "lane": "MID",
+    "status": "previsto",
+    "movementType": "permanencia",
+    "title": "Namiru tem continuidade prevista na paiN",
+    "description": "Namiru substituiu Keine no fim de 2026. Sua continuidade é uma projeção a partir da resposta de Showtana sobre mudanças em jungle e ADC, sem confirmação individual nova.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118037871508795566",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "painReply",
+    "evidenceKind": "inferencia",
+    "relatedSources": [
+      {
+        "date": "04/11/2026",
+        "url": "https://maisesports.com.br/cblol-2026-pain-tem-interesse-em-bwipo-e-ayu-diz-site",
+        "author": "Ian Teixeira / Mais Esports, com apuração da Sheep Esports"
+      },
+      {
+        "url": "https://maisesports.com.br/contratos/league-of-legends",
+        "date": "05/11/2026",
+        "author": "Mais Esports — consulta ao registro de contratos",
+        "title": "Consulta de vínculos (data de consulta, não de anúncio)"
+      }
+    ],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-kaze-loud",
+    "player": "Kaze",
+    "team": "LOUD",
+    "lane": "MID",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "Kaze mantém vínculo com a LOUD até 2027",
+    "description": "O registro consultado lista contrato até 2027. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+    "date": "05/11/2026",
+    "source": "https://maisesports.com.br/contratos/league-of-legends",
+    "author": "Mais Esports — consulta ao registro de contratos",
+    "sourceKey": "contractReview",
+    "evidenceKind": "contrato",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://x.com/luisshowtana/status/2118465209283272767",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "reviewedAt": "2026-11-05",
+    "dateKind": "consulta"
+  },
+  {
+    "id": "seed-uzent-loud",
+    "player": "uZent",
+    "team": "LOUD",
+    "lane": "SUP",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "uZent mantém vínculo com a LOUD até 2027",
+    "description": "O registro consultado lista contrato até 2027. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+    "date": "05/11/2026",
+    "source": "https://maisesports.com.br/contratos/league-of-legends",
+    "author": "Mais Esports — consulta ao registro de contratos",
+    "sourceKey": "contractReview",
+    "evidenceKind": "contrato",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://x.com/luisshowtana/status/2118465209283272767",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "reviewedAt": "2026-11-05",
+    "dateKind": "consulta"
+  },
+  {
+    "id": "seed-sinatra-loud",
+    "player": "Sinatra",
+    "team": "LOUD",
+    "lane": "JNG",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "Sinatra mantém vínculo com a LOUD até 2028",
+    "description": "O registro consultado lista contrato até 2028. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+    "date": "05/11/2026",
+    "source": "https://maisesports.com.br/contratos/league-of-legends",
+    "author": "Mais Esports — consulta ao registro de contratos",
+    "sourceKey": "contractReview",
+    "evidenceKind": "contrato",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://x.com/luisshowtana/status/2118465209283272767",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "reviewedAt": "2026-11-05",
+    "dateKind": "consulta"
+  },
+  {
+    "id": "seed-rabelo-loud",
+    "player": "Rabelo",
+    "team": "LOUD",
+    "lane": "ADC",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "Rabelo mantém vínculo com a LOUD até 2028",
+    "description": "O registro consultado lista contrato até 2028. Não foi localizada confirmação individual de permanência para 2027. Showtana afirma que mudanças dependerão do novo treinador.",
+    "date": "05/11/2026",
+    "source": "https://maisesports.com.br/contratos/league-of-legends",
+    "author": "Mais Esports — consulta ao registro de contratos",
+    "sourceKey": "contractReview",
+    "evidenceKind": "contrato",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://x.com/luisshowtana/status/2118465209283272767",
+        "author": "Showtana (@luisshowtana)"
+      }
+    ],
+    "reviewedAt": "2026-11-05",
+    "dateKind": "consulta"
+  },
+  {
+    "id": "seed-cody-fluxo",
+    "player": "cody",
+    "team": "Fluxo",
+    "lane": "MID",
+    "status": "previsto",
+    "movementType": "permanencia",
+    "title": "cody tem boas chances de permanecer no Fluxo",
+    "description": "Em resposta sobre a continuidade de cody, Showtana apontou chances altas, mas disse que o jogador também vai avaliar o mercado. Renovação ainda não confirmada.",
+    "date": "04/11/2026",
+    "source": "https://x.com/luisshowtana/status/2118109867210944925",
+    "author": "Showtana (@luisshowtana)",
+    "sourceKey": "codyReply",
+    "evidenceKind": "expectativa",
+    "relatedSources": [],
+    "reviewedAt": "2026-11-05"
+  },
+  {
+    "id": "seed-manel-red",
+    "player": "Manel",
+    "team": "RED Canids",
+    "lane": "SUP",
+    "status": "vinculado",
+    "movementType": "permanencia",
+    "title": "Manel tem vínculo com a RED até 2027",
+    "description": "Manel disputou o último split como suporte titular e tem contrato listado até 15/11/2027. Isso confirma o vínculo, sem garantir a vaga de titular em 2027.",
+    "date": "05/11/2026",
+    "source": "https://maisesports.com.br/contratos/league-of-legends",
+    "author": "Mais Esports — consulta ao registro de contratos",
+    "sourceKey": "contractReview",
+    "evidenceKind": "contrato",
+    "relatedSources": [
+      {
+        "date": "05/11/2026",
+        "url": "https://www.sheepesports.com/en/articles/sources-furia-make-official-offer-to-red-canids-for-frosty/en",
+        "author": "Showtana / Sheep Esports"
+      }
+    ],
+    "reviewedAt": "2026-11-05",
+    "dateKind": "consulta"
+  }
+];
+// Market update: Showtana's window spreadsheet (x.com/luisshowtana, 06/11/2026).
+// Colours in the original: green=confirmado, blue=encaminhado, yellow=interesse, red=incerto.
+// Block "titular" = projected starter; block "opcao" = other names in discussion.
+// "?" and "TRYOUT" cells become placeholder records (see showtanaSlots below), not players.
+const showtanaUpdate={date:'06/11/2026',source:'https://x.com/luisshowtana',author:'Showtana (@luisshowtana) — planilha da janela'};
+const showtanaRows=[
+  // team, lane, player, status, block
+  ['LOS','TOP','Zest','incerto','titular'],['LOS','JNG','Curse','confirmado','titular'],['LOS','ADC','Duduhh','confirmado','titular'],['LOS','SUP','Ackerman','incerto','titular'],
+  ['Fluxo','TOP','Guigo','interesse','titular'],['Fluxo','JNG','CarioK','interesse','titular'],['Fluxo','MID','cody','encaminhado','titular'],['Fluxo','ADC','Brance','interesse','titular'],['Fluxo','SUP','Momochi','encaminhado','titular'],
+  ['FURIA','TOP','Feng','confirmado','titular'],['FURIA','JNG','Tatu','confirmado','titular'],['FURIA','MID','Tutsz','confirmado','titular'],['FURIA','ADC','Ayu','encaminhado','titular'],['FURIA','SUP','JoJo','incerto','titular'],
+  ['FURIA','TOP','Xyno','interesse','opcao'],['FURIA','SUP','frosty','interesse','opcao'],
+  ['RED Canids','TOP','zynts','confirmado','titular'],['RED Canids','JNG','STEPZ','incerto','titular'],['RED Canids','MID','Fuuu','incerto','titular'],['RED Canids','ADC','Brance','interesse','titular'],['RED Canids','SUP','Manel','incerto','titular'],
+  ['RED Canids','JNG','Bwipo','interesse','opcao'],['RED Canids','MID','OMON','interesse','opcao'],['RED Canids','MID','Mireu','interesse','opcao'],['RED Canids','SUP','Zoelys','interesse','opcao'],['RED Canids','SUP','Trymbi','interesse','opcao'],['RED Canids','SUP','JoJo','interesse','opcao'],
+  ['Keyd Stars','JNG','Disamis','confirmado','titular'],['Keyd Stars','ADC','Morttheus','confirmado','titular'],
+  ['LOUD','TOP','Xyno','encaminhado','titular'],['LOUD','JNG','Sinatra','confirmado','titular'],['LOUD','MID','Kaze','confirmado','titular'],['LOUD','ADC','Rabelo','incerto','titular'],['LOUD','SUP','uZent','confirmado','titular'],
+  ['paiN Gaming','TOP','Boal','confirmado','titular'],['paiN Gaming','JNG','CarioK','incerto','titular'],['paiN Gaming','MID','Namiru','confirmado','titular'],['paiN Gaming','ADC','ceo','interesse','titular'],['paiN Gaming','ADC','Ayu','interesse','titular'],['paiN Gaming','SUP','Ceos','encaminhado','titular'],
+  ['paiN Gaming','JNG','Bwipo','interesse','opcao'],['paiN Gaming','SUP','frosty','interesse','opcao']
+];
+const showtanaStatusText={confirmado:'confirmado',encaminhado:'encaminhado',interesse:'em interesse',incerto:'incerto'};
+const showtanaEvidence={confirmado:'apuracao',encaminhado:'conversa',interesse:'conversa',incerto:'expectativa'};
+seededMoves.push(...showtanaRows.map(([team,lane,player,status,block])=>({
+  id:'seed-st0611-'+(player+'-'+team).toLowerCase().replace(/[^a-z0-9]+/g,'-'),
+  player,team,lane,status,movementType:'chegada',
+  title:`${player} ${block==='titular'?'na projeção da':'como opção da'} ${team} (${showtanaStatusText[status]})`,
+  description:`Na planilha da janela publicada por Showtana em 06/11/2026, ${player} aparece ${block==='titular'?'na formação projetada':'entre as outras opções'} da ${team} como ${lane}, marcado como ${showtanaStatusText[status]}. Legenda do autor: verde confirmado, azul encaminhado, amarelo interesse, vermelho incerto.`,
+  date:showtanaUpdate.date,source:showtanaUpdate.source,author:showtanaUpdate.author,
+  sourceKey:'showtanaSheet0611',evidenceKind:showtanaEvidence[status],relatedSources:[],reviewedAt:'2026-11-06'
+})));
+// Signalling slots: an open spot ("?") or a tryout. They render as placeholder chips, never as players.
+const showtanaSlots=[
+  {team:'LOS',lane:'MID',kind:'vaga',status:'incerto',title:'LOS sem meio definido após a saída de Feisty',description:'Feisty deixou a LOS e foi anunciado pela GiantX. A vaga de meio da LOS para 2027 está em aberto, como na planilha do Showtana.'},
+  ...lanes.map(lane=>({team:'Leviatán',lane,kind:'vaga',status:'incerto',title:`Leviatán sem ${lane} definido para 2027`,description:`Na planilha do Showtana (06/11/2026), todas as posições da Leviatán aparecem como "?". Os contratos do elenco de 2026 terminam em 16/11/2026 e não há definição para ${lane}.`})),
+  ...['TOP','MID','SUP'].map(lane=>({team:'Keyd Stars',lane,kind:'tryout',status:'interesse',country:{code:'br',name:'Brasil'},residency:'BR',title:`Keyd define ${lane} em tryout — vaga para jogador brasileiro`,description:`A Keyd segue em tryouts para a posição de ${lane}, marcada como TRYOUT na planilha do Showtana (06/11/2026). Independentemente de quem seja escolhido, o jogador será brasileiro (BR). Card apenas de sinalização.`}))
+];
+seededMoves.push(...showtanaSlots.map(s=>({
+  id:`seed-st0611-${s.kind}-${s.team}-${s.lane}`.toLowerCase().replace(/[^a-z0-9]+/g,'-'),
+  player:s.kind==='tryout'?'TRYOUT':'?',placeholder:s.kind,team:s.team,lane:s.lane,status:s.status,movementType:'chegada',
+  country:s.country,residency:s.residency,title:s.title,description:s.description,
+  date:showtanaUpdate.date,source:s.kind==='tryout'?'https://x.com/luisshowtana/status/2118036782679732538':showtanaUpdate.source,author:showtanaUpdate.author,
+  sourceKey:'showtanaSheet0611',evidenceKind:'expectativa',relatedSources:[],reviewedAt:'2026-11-06'
+})));
+// Feisty officially left LOS for GiantX: this record supersedes the old renewal card and removes him from the LOS column.
+seededMoves.push({
+  id:'seed-feisty-giantx',player:'Feisty',team:'LOS',lane:'MID',status:'saindo',movementType:'saida',
+  title:'Feisty deixa a LOS e vai para a GiantX',
+  description:'Saída oficial: Feisty foi anunciado pela GiantX e não segue na LOS para 2027. Substitui o card anterior sobre a intenção de renovação.',
+  date:'06/11/2026',author:'Anúncio oficial',evidenceKind:'oficial',relatedSources:[],reviewedAt:'2026-11-06'
+});
+// Profiles for names that are not in the 2026 contract base.
+initial.push(
+  {id:'feng',name:'Feng',team:'FURIA',lane:'TOP',residency:'BR',end:'',contractTeam:'FURIA Youth',country:{code:'br',name:'Brasil',source:'https://lol.fandom.com/wiki/Feng_(Brenno_Martins)'},source:'https://lol.fandom.com/wiki/Feng_(Brenno_Martins)'},
+  {id:'trymbi',name:'Trymbi',team:'Shifters',lane:'SUP',residency:'IMPORT',end:'16/11/2026',contractTeam:'Shifters',contractNote:'Sheep Esports (perfil do jogador, 06/11/2026): contrato ativo com a Shifters até 16/11/2026.',country:{code:'pl',name:'Polônia',source:'https://liquipedia.net/leagueoflegends/Trymbi'},source:'https://liquipedia.net/leagueoflegends/Trymbi'},
+  {id:'zoelys',name:'Zoelys',team:'Galions',lane:'SUP',residency:'IMPORT',end:'',contractTeam:'Galions',contractState:'semRegistro',contractNote:'Sheep Esports (perfil do jogador, 06/11/2026): nenhum contrato registrado, apesar de ter jogado a LFL 2026 pela Galions.',country:{code:'fr',name:'França',source:'https://liquipedia.net/leagueoflegends/Zoelys'},source:'https://liquipedia.net/leagueoflegends/Zoelys'}
+);
+// Coaching staff rows (HC, COACH, ANALYST) start blank, as in Showtana's spreadsheet; staff will be filled in as the window develops.
+const KEY='riftmercado_v1_moves';
+let storedMoves=[];
+try{const parsed=JSON.parse(localStorage.getItem(KEY));if(Array.isArray(parsed))storedMoves=parsed;}catch(e){}
+// Normalize older saved records to the current team names and lane abbreviations.
+const currentTeam=team=>({'Vivo Keyd Stars':'Keyd Stars','Fluxo W7M':'Fluxo'}[team]||team);
+storedMoves=storedMoves.filter(m=>m&&typeof m==='object').map(m=>({...m,team:currentTeam(m.team),lane:m.lane==='JUNGLE'?'JNG':m.lane,...(m.contractTeam?{contractTeam:currentTeam(m.contractTeam)}:{}),...(m.loanTeam?{loanTeam:currentTeam(m.loanTeam)}:{})}));
+// Refresh the bundled reports while preserving the visitor's own records.
+const seedIds=new Set(seededMoves.map(m=>m.id));
+let moves=[...storedMoves.filter(m=>m&&!seedIds.has(m.id)),...seededMoves];
+const $=id=>document.getElementById(id),escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const colors={confirmado:'Confirmado',encaminhado:'Negociação / proposta',interesse:'Interesse',saindo:'Saída reportada',previsto:'Permanência / retorno previsto',indefinido:'Indefinido',oferecido:'Oferecido / disponível',vinculado:'Vínculo vigente em 2027',incerto:'Incerto',base:'Contrato listado'};let modalOpen=false;
+function toast(s){$('toast').textContent=s;$('toast').classList.remove('hidden');setTimeout(()=>$('toast').classList.add('hidden'),2600)}
+function renderStats(){}
+const teamLogos = {
+  "FURIA": "assets/teams/furia.png",
+  "LOUD": "assets/teams/loud.png",
+  "Keyd Stars": "assets/teams/keyd-stars.svg",
+  "paiN Gaming": "assets/teams/pain-gaming.png",
+  "RED Canids": "assets/teams/red-canids.webp",
+  "Fluxo": "assets/teams/fluxo.png",
+  "LOS": "assets/teams/los.png",
+  "Leviatán": "assets/teams/leviatan.png"
+};
+const playerPhotos = {
+  "ceos": "assets/players/ceos-cutout.webp",
+  "xyno": "assets/players/xyno.png",
+  "guigo": "assets/players/guigo.png",
+  "tutsz": "assets/players/tutsz.png",
+  "tatu": "assets/players/tatu.png",
+  "sinatra": "assets/players/sinatra.png",
+  "disamis": "assets/players/disamis.png",
+  "mireu": "assets/players/mireu.png",
+  "zekas": "assets/players/zekas.png",
+  "rabelo": "assets/players/rabelo.png",
+  "uzent": "assets/players/uzent.png",
+  "ceo": "assets/players/ceo.png",
+  "cariok": "assets/players/cariok.png",
+  "keine": "assets/players/keine.png",
+  "namiru": "assets/players/namiru.png",
+  "zynts": "assets/players/zynts.png",
+  "samkz": "assets/players/samkz.png",
+  "marvin": "assets/players/marvin.png",
+  "zothve": "assets/players/zothve.png",
+  "curty": "assets/players/curty.png",
+  "manel": "assets/players/manel.png",
+  "morttheus": "assets/players/morttheus.png",
+  "fuuu": "assets/players/fuuu.png",
+  "duduhh": "assets/players/duduhh.png",
+  "cody": "assets/players/cody.png",
+  "momochi": "assets/players/momochi.png",
+  "prodelta": "assets/players/prodelta.png",
+  "hauz": "assets/players/hauz.png",
+  "peach": "assets/players/peach.png",
+  "ackerman": "assets/players/ackerman.png",
+  "kaze": "assets/players/kaze.png",
+  "boal": "assets/players/boal.png",
+  "trigger": "assets/players/trigger.png",
+  "kuri": "assets/players/kuri.png",
+  "stepz": "assets/players/stepz.png",
+  "frosty": "assets/players/frosty.png",
+  "bao": "assets/players/bao.png",
+  "sarolu": "assets/players/sarolu.png",
+  "qats": "assets/players/qats.png",
+  "scamber": "assets/players/scamber.png",
+  "zay": "assets/players/zay.png",
+  "mago": "assets/players/mago.png",
+  "supercleber": "assets/players/supercleber-cutout.webp",
+  "buero": "assets/players/buero-cutout.webp",
+  "hena": "assets/players/hena-cutout.webp",
+  "feisty": "assets/players/feisty-cutout.webp",
+  "bwipo": "assets/players/bwipo-cutout.webp",
+  "jeskla": "assets/players/jeskla-cutout.webp",
+  "brance": "assets/players/brance-cutout.webp",
+  "omon": "assets/players/omon-cutout.webp",
+  "ayu": "assets/players/ayu-cutout.webp",
+  "jojo": "assets/players/jojo-cutout.webp",
+  "curse": "assets/players/curse-cutout.webp",
+  "zest": "assets/players/zest-cutout.webp",
+  "trymbi": "assets/players/trymbi.png",
+  "zoelys": "assets/players/zoelys.png"
+};
+function playerAvatar(name){
+  const photo=playerPhotos[String(name).trim().toLowerCase()];
+  const initials=String(name).slice(0,2).toUpperCase();
+  return `<span class="playeravatar" aria-hidden="true"><span>${escapeHtml(initials)}</span>${photo?`<img src="${escapeHtml(photo)}" alt="" width="36" height="36" decoding="async" onerror="this.hidden=true">`:''}</span>`;
+}
+function countryFlag(p){
+  const c=p?.country;
+  return c?`<img class="countryflag" src="assets/flags/${escapeHtml(c.code)}.svg" alt="${escapeHtml(c.name)}" title="${escapeHtml(c.name)}" width="16" height="12">`:'';
+}
+// Compact label for the spreadsheet chips, e.g. "Até 2027 · Keyd". The player card keeps the full contractLabel.
+function contractShort(p){
+  if(p?.contractState==='livre')return 'Agente Livre';
+  if(p?.contractState==='semRegistro')return 'Sem registro';
+  const year=String(p?.end||'').match(/\d{4}$/)?.[0];
+  if(!year)return 'Sem info';
+  if(Number(year)<2027)return 'Agente Livre';
+  const club=p.contractTeamShort||shortTeamName(p.contractTeam||p.team);
+  return 'Até '+year+(club?' · '+club:'');
+}
+function contractLabel(p){
+  if(p?.contractState==='livre')return 'Agente Livre';
+  if(p?.contractState==='semRegistro')return 'Sem contrato registrado';
+  if(!p?.end)return 'Contrato não informado';
+  const year=String(p.end).match(/\d{4}$/)?.[0];
+  if(!year)return 'Contrato não informado';
+  if(Number(year)<2027)return 'Agente Livre';
+  const club=p.contractTeamShort||shortTeamName(p.contractTeam||p.team);
+  return 'Contrato até '+year+(club?' c/ '+club:'');
+}
+function shortTeamName(team){return {'Keyd Stars':'Keyd','Vivo Keyd Stars':'Keyd','paiN Gaming':'paiN','RED Canids':'RED','Fluxo W7M':'Fluxo'}[team]||team||''}
+function isRosterMove(m){
+  if(m.newsOnly||['saindo','indefinido','base'].includes(m.status))return false;
+  return !m.movementType||['chegada','retorno','compra','permanencia','renovacao'].includes(m.movementType);
+}
+// Official League of Legends position icons (from the game client via CommunityDragon).
+const laneIconFiles={TOP:'top',JNG:'jungle',MID:'middle',ADC:'bottom',SUP:'utility'};
+function laneIcon(lane){
+  const file=laneIconFiles[lane];
+  if(file)return `<img class="laneicon" src="assets/lanes/${file}.png" alt="" width="28" height="28">`;
+  return staffIcons[lane]?`<svg class="laneicon stafficon" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">${staffIcons[lane]}</svg>`:'';
+}
+// Coaching staff rows, with icons drawn in the same gold as the official position icons.
+const staffRows=[['HC','HEAD COACH'],['COACH','COACH'],['ANALYST','ANALYST']];
+const staffIcons={
+  HC:'<rect x="4.5" y="4" width="15" height="17.5" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="8.5" y="2.2" width="7" height="4" rx="1.2" fill="currentColor"/><path d="M12 9.2l1.15 2.3 2.55.37-1.85 1.8.44 2.53L12 15l-2.29 1.2.44-2.53-1.85-1.8 2.55-.37z" fill="currentColor"/><path d="M8 18.6h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
+  COACH:'<circle cx="9" cy="14.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12.6 10.3 21 7.2v4.2l-6.4 2.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="14.5" r="1.8" fill="currentColor"/><path d="M5.2 6.5 3.5 4.8M9 5.5V3.2M12.5 6.5l1.4-1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>',
+  ANALYST:'<path d="M3.5 20.5h17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><rect x="5" y="13" width="3.4" height="6" rx=".8" fill="currentColor"/><rect x="10.3" y="9" width="3.4" height="10" rx=".8" fill="currentColor"/><rect x="15.6" y="5" width="3.4" height="14" rx=".8" fill="currentColor"/>'
+};
+function rowHeader(row){const label=staffRows.find(r=>r[0]===row)?.[1]||row;return `<span class="lanecell">${laneIcon(row)}<span>${label}</span></span>`}
+function matrixHeadRow(teamList){return '<tr><th scope="col">LANE</th>'+teamList.map(team=>`<th scope="col"><span class="teamheading"><img class="teamlogo" src="${escapeHtml(teamLogos[team])}" alt="" width="24" height="24"><span class="teamname">${escapeHtml(team)}</span></span></th>`).join('')+'</tr>'}
+// One chip per player and team: the most recent record wins (later entries win ties), so market updates replace older reports.
+function matrixItems(team,lane){
+  const latest=new Map();
+  moves.filter(m=>m.team===team&&m.lane===lane&&m.player).forEach(m=>{const k=m.player.toLowerCase(),prev=latest.get(k);if(!prev||marketDate(m.date)>=marketDate(prev.date))latest.set(k,m)});
+  return [...latest.values()].filter(isRosterMove)
+    .map(m=>({...m,origin:initial.find(p=>p.name.toLowerCase()===m.player.toLowerCase())})).sort((a,b)=>marketDate(b.date)-marketDate(a.date));
+}
+// The spreadsheet uses Showtana's four-colour legend; detailed statuses fold into it (the player card keeps the precise status).
+const sheetLegend={confirmado:'Confirmado',encaminhado:'Encaminhado',interesse:'Interesse',incerto:'Incerto'};
+function sheetGroup(status){return {confirmado:'confirmado',vinculado:'confirmado',encaminhado:'encaminhado',previsto:'encaminhado',interesse:'interesse',oferecido:'interesse',incerto:'incerto'}[status]||'incerto'}
+function renderMatrix(){
+  const q=$('search').value.trim().toLowerCase(),tf=$('teamFilter').value,sf=$('statusFilter').value;
+  const columns=teams.filter(team=>!tf||team===tf).map(team=>({team,cells:planRows().map(lane=>matrixItems(team,lane).filter(x=>(!sf||sheetGroup(x.status)===sf)&&(!q||[x.player,x.team].some(t=>t.toLowerCase().includes(q)))))}))
+    .filter(column=>(!q&&!sf)||column.cells.some(cell=>cell.length));
+  $('matrixCols').innerHTML='<col class="laneColumn">'+columns.map(()=>'<col class="teamColumn">').join('');
+  $('matrixHead').innerHTML=matrixHeadRow(columns.map(c=>c.team));
+  $('matrixBody').innerHTML=columns.length?planRows().map((lane,index)=>`<tr${lane===staffRows[0][0]?' class="staffstart"':''}><th scope="row">${rowHeader(lane)}</th>${columns.map(({team,cells})=>'<td>'+ (cells[index].map(x=>{
+    const id=x.id||'base:'+x.player+':'+team,g=sheetGroup(x.status),label=x.player+' — '+team+' — '+sheetLegend[g];
+    if(x.placeholder)return `<button class="playerchip sg-${g}" data-detail="${escapeHtml(id)}" aria-label="${escapeHtml(label)}"><span class="playeravatar placeholderavatar" aria-hidden="true"><span>${x.placeholder==='tryout'?'TR':'?'}</span></span><span class="playertext"><strong class="playername">${escapeHtml(x.player)}</strong><small class="playercountry">${x.placeholder==='tryout'?countryFlag(x)+'<span>Brasil</span>':'<span>A definir</span>'}</small><small class="contractline">${x.placeholder==='tryout'?'Jogador BR em teste':'Vaga em aberto'}</small></span></button>`;
+    return `<button class="playerchip sg-${g}" data-detail="${escapeHtml(id)}" aria-label="${escapeHtml(label)}">${playerAvatar(x.player)}<span class="playertext"><strong class="playername">${escapeHtml(x.player)}</strong><small class="playercountry">${countryFlag(x.origin)}<span>${escapeHtml(x.origin?.country?.name||x.origin?.roleLabel||'País não informado')}</span></small><small class="contractline" title="${escapeHtml(contractLabel(x.origin))}">${escapeHtml(contractShort(x.origin))}</small></span></button>`;
+  }).join('')||(staffRows.some(r=>r[0]===lane)?'':'<span class="vacant">'+(q||sf?'Sem resultado':'Sem rumor registrado')+'</span>'))+'</td>').join('')}</tr>`).join(''):'<tr><td class="empty">Nenhuma movimentação encontrada.</td></tr>';
+}
+function marketDate(date){const [d,m,y]=String(date||'').split('/');return Date.UTC(Number(y)||1970,(Number(m)||1)-1,Number(d)||1);}
+function renderNews(){let filter=$('newsFilter').value;let arr=moves.filter(m=>!filter||m.status===filter).sort((a,b)=>marketDate(b.date)-marketDate(a.date));$('newsCards').innerHTML=arr.map(m=>`<article class="news"><div><span class="pill ${escapeHtml(m.status)}">${escapeHtml(colors[m.status]||m.status)}</span> <span class="labelchip">${m.dateKind==='consulta'?'Consulta: ':''}${escapeHtml(m.date||'Sem data')}</span></div><h3>${escapeHtml(m.title||m.player+' • '+m.team)}</h3><p>${escapeHtml(m.description||'Movimentação registrada no painel local.')}</p><p class="small">${escapeHtml(m.author||'Registro local')}${m.newsOnly?' · '+escapeHtml(m.lane==='COMISSÃO'?'Comissão técnica':m.lane==='PROJETO'?'Organização':'Mercado externo'):''}</p><footer><span>${escapeHtml(m.player)} · ${escapeHtml(m.team)}</span>${m.source?`<a href="${escapeHtml(m.source)}" target="_blank" rel="noopener">Ver fonte ↗</a>`:'<span>Sem fonte</span>'}</footer></article>`).join('')||'<div class="empty">Nenhuma movimentação com este filtro.</div>'}
+const evidenceLabels={oficial:'Anúncio oficial / vínculo anunciado',apuracao:'Confirmação ou informação jornalística',contrato:'Contrato verificado — escalação não confirmada',expectativa:'Expectativa da fonte — sem confirmação',inferencia:'Projeção editorial a partir da fonte — sem confirmação individual',conversa:'Conversa reportada — sem acordo',declaracao:'Intenção declarada — sem renovação concluída'};
+function detail(id){const isBase=id.startsWith('base:');let m=isBase?null:moves.find(x=>x.id===id);let name=isBase?id.split(':')[1]:m?.player;if(!name)return;let p=m?.placeholder?{country:m.country,residency:m.residency,lane:m.lane,contractTeam:m.placeholder==='tryout'?'A definir (tryout)':'Vaga em aberto'}:initial.find(x=>x.name.toLowerCase()===name.toLowerCase());let team=m?.team||p?.team||'—';let status=m?.status||'base';let html=`<div class="modalwrap" id="overlay"><div class="modal"><div class="modalhead"><span class="eyebrow">FICHA DE JOGADOR</span><button class="close" id="closeModal">×</button></div><div class="playerheading">${playerAvatar(name)}<h1>${escapeHtml(name)}</h1></div><span class="pill ${status}">${colors[status]}</span>${m?.evidenceKind?`<p class="notice">Base da informação: ${escapeHtml(evidenceLabels[m.evidenceKind]||m.evidenceKind)}.</p>`:''}<div class="detailgrid"><div><small>Equipe desta ficha</small><b>${escapeHtml(team)}</b></div><div><small>${p?.staff?'Função':'Rota'}</small><b>${escapeHtml(p?.roleLabel||rowLabel(m?.lane||p?.lane||'—'))}</b></div><div><small>País</small><b class="countrydetail">${countryFlag(p)}${escapeHtml(p?.country?.name||'Não informado')}</b></div><div><small>Clube do contrato</small><b>${escapeHtml(p?.contractTeam||'Não informado')}</b></div><div><small>Residência competitiva (base)</small><b>${p?.residency==='IMPORT'?'Import':p?.residency==='BR'?'Residente BR (conforme registro)':'Não informada'}</b></div><div><small>Situação para 2027</small><b>${escapeHtml(contractLabel(p))}</b></div><div><small>Data do contrato listado</small><b>${escapeHtml(p?.end||'Não informada')}</b></div></div>${p?.loanTeam?`<p class="notice">Emprestado à ${escapeHtml(p.loanTeam)} · ${escapeHtml(contractLabel(p))}.</p><p class="notice">${escapeHtml(p.contractNote||'')}</p><p class="small"><a href="${escapeHtml(p.loanSource)}" target="_blank" rel="noopener">Fonte do empréstimo ↗</a></p>`:''}${m?`<h3>${escapeHtml(m.title||'Movimentação')}</h3><p class="muted">${escapeHtml(m.description||'Sem descrição adicional.')}</p><p class="small muted">${m.dateKind==='consulta'?'Consulta ao registro':'Publicação registrada'}: ${escapeHtml(m.date||'não informada')}</p>${m.author?`<p class="small muted">${escapeHtml(m.author)}</p>`:''}`:'<p class="muted">Registro de equipe/contrato de 2026. Não é anúncio de permanência para 2027.</p>'}${p?.contractNote&&!p.loanTeam?`<p class="notice">${escapeHtml(p.contractNote)}</p>`:''}${m?.relatedSources?.length?`<h3>Contexto e atualizações</h3><div class="relatedsources">${m.relatedSources.map(s=>`<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.date)} · ${escapeHtml(s.author)} ↗</a>`).join('')}</div>`:''}<div class="actions" style="margin-top:18px"><a class="btn" href="${escapeHtml(m?.source||p?.source||contractSource)}" target="_blank" rel="noopener">↗ Abrir fonte</a>${m&&!m.id.startsWith('seed-')?`<button class="btn" data-del="${escapeHtml(m.id)}">Excluir registro local</button>`:''}</div></div></div>`;$('modalRoot').innerHTML=html;modalOpen=true;$('closeModal').onclick=closeModal;$('overlay').onclick=e=>{if(e.target.id==='overlay')closeModal()}}
+function closeModal(){$('modalRoot').innerHTML='';modalOpen=false}
+function newRecord(){const select=(options)=>options.map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join('');$('modalRoot').innerHTML=`<div class="modalwrap" id="overlay"><div class="modal"><div class="modalhead"><span class="eyebrow">PAINEL LOCAL • NOVA MOVIMENTAÇÃO</span><button class="close" id="closeModal">×</button></div><h2 style="margin:12px 0 17px">Registrar negociação</h2><form id="addForm" class="formgrid"><label>Jogador<input class="field" name="player" list="playerOptions" required maxlength="60" placeholder="Ex.: Xyno"><datalist id="playerOptions">${initial.map(x=>`<option value="${escapeHtml(x.name)}"></option>`).join('')}</datalist></label><label>Equipe<select class="field" name="team" required>${select(teams)}</select></label><label>Posição<select class="field" name="lane">${select(lanes)}</select></label><label>Status<select class="field" name="status"><option value="interesse">Interesse</option><option value="encaminhado">Negociação / proposta</option><option value="confirmado">Confirmado</option><option value="saindo">Saída reportada</option><option value="previsto">Permanência / retorno previsto</option><option value="indefinido">Indefinido</option><option value="vinculado">Vínculo vigente em 2027</option><option value="oferecido">Oferecido / disponível</option></select></label><label class="wide">Título<input class="field" name="title" required maxlength="110" placeholder="Ex.: Organização negocia com jogador"></label><label class="wide">Descrição<textarea class="field" name="description" rows="3" maxlength="600" placeholder="Qual foi a informação publicada?"></textarea></label><label>Data da informação<input class="field" name="date" type="date" required></label><label>Link da fonte<input class="field" name="source" type="url" required placeholder="https://..."></label><div class="wide notice">O registro será salvo somente neste navegador. Rumores não são promovidos a confirmação automaticamente.</div><div class="wide"><button class="btn primary" type="submit" style="width:100%">Salvar movimentação</button></div></form></div></div>`;$('closeModal').onclick=closeModal;$('overlay').onclick=e=>{if(e.target.id==='overlay')closeModal()};$('addForm').elements.date.value=new Date().toLocaleDateString('sv-SE');$('addForm').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);let raw=Object.fromEntries(f.entries());let source=raw.source.trim();try{if(!['http:','https:'].includes(new URL(source).protocol))throw new Error()}catch{toast('Informe uma URL de fonte válida.');return}let m={...raw,id:'custom-'+Date.now(),date:raw.date.split('-').reverse().join('/')};moves.unshift(m);localStorage.setItem(KEY,JSON.stringify(moves));closeModal();renderAll();toast('Movimentação adicionada ao seu navegador.')};modalOpen=true}
+function exportCSV(){const rows=[['Tipo','Jogador','Equipe','País','Clube do contrato','Empréstimo para','Rota','Residência competitiva','Fim contrato listado','Status','Título','Fonte']];for(const p of initial)rows.push(['Contrato listado',p.name,p.team,p.country?.name||'',p.contractTeam||p.team,p.loanTeam||'',p.lane,p.residency,p.end,'base','',p.source]);for(const m of moves){let p=initial.find(x=>x.name.toLowerCase()===m.player.toLowerCase());rows.push(['Movimentação',m.player,m.team,p?.country?.name||'',p?.contractTeam||'',p?.loanTeam||'',m.lane,p?.residency||'',p?.end||'',m.status,m.title,m.source])}const csv='\uFEFF'+rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(';')).join('\r\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='rift-mercado-cblol-2027.csv';a.click();URL.revokeObjectURL(a.href);toast('Planilha CSV exportada.')}
+// ---- "Monte sua planilha": the visitor's own spreadsheet (5 starters + coaching staff), saved in this browser ----
+const PLAN_KEY='riftmercado_v1_myplan';
+let myPlan={};try{const saved=JSON.parse(localStorage.getItem(PLAN_KEY));if(saved&&typeof saved==='object')myPlan=saved}catch(e){}
+const planRows=()=>[...lanes,...staffRows.map(r=>r[0])];
+const rowLabel=row=>staffRows.find(r=>r[0]===row)?.[1]||row;
+function savePlan(){try{localStorage.setItem(PLAN_KEY,JSON.stringify(myPlan))}catch(e){}}
+function planCell(team,row){return myPlan[team]?.[row]||null}
+function originOf(name){return initial.find(p=>p.name.toLowerCase()===String(name).toLowerCase())}
+function planChip(team,row,cell){
+  const g=sheetGroup(cell.status),ph=cell.name==='?'?'vaga':cell.name==='TRYOUT'?'tryout':null,o=ph?null:originOf(cell.name);
+  const country=ph==='tryout'?countryFlag({country:{code:'br',name:'Brasil'}})+'<span>Brasil</span>':ph?'<span>A definir</span>':`${countryFlag(o)}<span>${escapeHtml(o?.country?.name||o?.roleLabel||(staffRows.some(r=>r[0]===row)?rowLabel(row):'País não informado'))}</span>`;
+  const contract=ph==='tryout'?'Jogador BR em teste':ph?'Vaga em aberto':contractShort(o);
+  const avatar=ph?`<span class="playeravatar placeholderavatar" aria-hidden="true"><span>${ph==='tryout'?'TR':'?'}</span></span>`:playerAvatar(cell.name);
+  return `<button class="playerchip sg-${g}" data-plan="${escapeHtml(team)}|${row}" aria-label="${escapeHtml(cell.name+' — '+team+' — '+rowLabel(row)+' — '+sheetLegend[g])}">${avatar}<span class="playertext"><strong class="playername">${escapeHtml(cell.name)}</strong><small class="playercountry">${country}</small><small class="contractline">${escapeHtml(contract)}</small></span></button>`;
+}
+function renderPlan(){
+  $('planCols').innerHTML='<col class="laneColumn">'+teams.map(()=>'<col class="teamColumn">').join('');
+  $('planHead').innerHTML=matrixHeadRow(teams);
+  const row=r=>`<tr${r===staffRows[0][0]?' class="staffstart"':''}><th scope="row">${rowHeader(r)}</th>${teams.map(team=>{const c=planCell(team,r);return '<td>'+(c?planChip(team,r,c):`<button class="addslot" data-plan="${escapeHtml(team)}|${r}" aria-label="Adicionar ${escapeHtml(rowLabel(r))} da ${escapeHtml(team)}">＋</button>`)+'</td>'}).join('')}</tr>`;
+  $('planBody').innerHTML=planRows().map(row).join('');
+  const filled=teams.reduce((n,t)=>n+planRows().filter(r=>planCell(t,r)).length,0);
+  $('planCount').textContent=filled+' / '+teams.length*planRows().length+' vagas preenchidas';
+}
+function editPlanCell(team,row){
+  const cell=planCell(team,row)||{name:'',status:'confirmado'},isStaff=staffRows.some(r=>r[0]===row);
+  const names=[...new Set([...initial.filter(p=>p.lane===row).map(p=>p.name),...moves.filter(m=>m.lane===row&&!m.placeholder).map(m=>m.player)])].sort((a,b)=>a.localeCompare(b));
+  $('modalRoot').innerHTML=`<div class="modalwrap" id="overlay"><div class="modal"><div class="modalhead"><span class="eyebrow">MONTE SUA PLANILHA</span><button class="close" id="closeModal">×</button></div><h2 style="margin:12px 0 4px">${escapeHtml(team)} · ${escapeHtml(rowLabel(row))}</h2><p class="muted small" style="margin:0 0 16px">Escolha da base ou digite qualquer nome.</p><form id="planForm" class="formgrid"><label class="wide">${isStaff?'Nome':'Jogador'}<input class="field" name="name" list="planNames" maxlength="40" value="${escapeHtml(cell.name)}" placeholder="${isStaff?'Ex.: furyz':'Ex.: Xyno'}" autocomplete="off"><datalist id="planNames">${names.map(n=>`<option value="${escapeHtml(n)}"></option>`).join('')}</datalist></label>${isStaff?'':'<div class="wide quickpicks"><button type="button" class="btn" data-quick="?">? Vaga em aberto</button><button type="button" class="btn" data-quick="TRYOUT">TRYOUT</button></div>'}<fieldset class="wide statuspick"><legend>Status</legend>${Object.entries(sheetLegend).map(([k,l])=>`<label class="statusopt sg-${k}"><input type="radio" name="status" value="${k}" ${sheetGroup(cell.status)===k?'checked':''}><span>${l}</span></label>`).join('')}</fieldset><div class="wide planactions">${planCell(team,row)?'<button type="button" class="btn" id="planRemove">Remover</button>':''}<button class="btn primary" type="submit">Salvar</button></div></form></div></div>`;
+  modalOpen=true;$('closeModal').onclick=closeModal;$('overlay').onclick=e=>{if(e.target.id==='overlay')closeModal()};
+  const form=$('planForm');form.elements.name.focus();
+  form.querySelectorAll('[data-quick]').forEach(b=>b.onclick=()=>{form.elements.name.value=b.dataset.quick;if(b.dataset.quick==='?')form.querySelector('input[value="incerto"]').checked=true;else form.querySelector('input[value="interesse"]').checked=true});
+  if($('planRemove'))$('planRemove').onclick=()=>{delete myPlan[team]?.[row];savePlan();closeModal();renderPlan()};
+  form.onsubmit=e=>{e.preventDefault();const name=form.elements.name.value.trim();if(!name){delete myPlan[team]?.[row]}else{(myPlan[team]||(myPlan[team]={}))[row]={name,status:form.elements.status.value||'confirmado'}}savePlan();closeModal();renderPlan()};
+}
+// Pre-fill from the official spreadsheet: per slot, the strongest status wins, then the most recent report.
+function planFromMarket(){
+  const rank={confirmado:0,encaminhado:1,interesse:2,incerto:3};const plan={};
+  teams.forEach(team=>planRows().forEach(r=>{const best=matrixItems(team,r).sort((a,b)=>rank[sheetGroup(a.status)]-rank[sheetGroup(b.status)])[0];if(best)(plan[team]||(plan[team]={}))[r]={name:best.player,status:sheetGroup(best.status)}}));
+  return plan;
+}
+function planText(){
+  return 'Minha planilha CBLOL 2027\n\n'+teams.map(team=>team+'\n'+planRows().map(r=>{const c=planCell(team,r);return `${rowLabel(r)}: ${c?c.name+' ('+sheetLegend[sheetGroup(c.status)].toLowerCase()+')':'—'}`}).join('\n')).join('\n\n')+'\n\nMontada no Rift Mercado';
+}
+function exportPlanCSV(){
+  const rows=[['Equipe','Posição','Nome','Status']];teams.forEach(team=>planRows().forEach(r=>{const c=planCell(team,r);rows.push([team,rowLabel(r),c?.name||'',c?sheetLegend[sheetGroup(c.status)]:''])}));
+  const csv='﻿'+rows.map(r=>r.map(v=>'"'+String(v??'').replace(/"/g,'""')+'"').join(';')).join('\r\n');
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='minha-planilha-cblol-2027.csv';a.click();URL.revokeObjectURL(a.href);toast('Sua planilha foi exportada.');
+}
+function renderAll(){renderStats();renderMatrix();renderNews();renderPlan()}
+teams.forEach(t=>$('teamFilter').add(new Option(t,t)));document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t===b));['planilha','noticias','montar','fontes'].forEach(t=>$(t).classList.toggle('hidden',t!==b.dataset.tab))});$('search').oninput=renderMatrix;$('teamFilter').onchange=renderMatrix;$('statusFilter').onchange=renderMatrix;$('newsFilter').onchange=renderNews;
+$('planBody').addEventListener('click',e=>{const el=e.target.closest('[data-plan]');if(el){const [team,row]=el.dataset.plan.split('|');editPlanCell(team,row)}});
+$('planFromMarket').onclick=()=>{myPlan=planFromMarket();savePlan();renderPlan();toast('Planilha preenchida com o mercado atual.')};
+$('planClear').onclick=()=>{if($('planClear').dataset.armed){delete $('planClear').dataset.armed;$('planClear').textContent='Limpar';myPlan={};savePlan();renderPlan();toast('Planilha limpa.')}else{$('planClear').dataset.armed='1';$('planClear').textContent='Confirmar limpeza';setTimeout(()=>{if($('planClear').dataset.armed){delete $('planClear').dataset.armed;$('planClear').textContent='Limpar'}},3500)}};
+$('planCopy').onclick=()=>{const txt=planText();if(navigator.clipboard?.writeText)navigator.clipboard.writeText(txt).then(()=>toast('Planilha copiada como texto!')).catch(()=>prompt('Copie sua planilha:',txt));else prompt('Copie sua planilha:',txt)};
+$('planCSV').onclick=exportPlanCSV;
+$('matrixBody').addEventListener('click',e=>{const el=e.target.closest('[data-detail]');if(el)detail(el.dataset.detail)});$('modalRoot').addEventListener('click',e=>{const el=e.target.closest('[data-del]');if(el){moves=moves.filter(x=>x.id!==el.dataset.del);localStorage.setItem(KEY,JSON.stringify(moves));closeModal();renderAll();toast('Registro local excluído.')}});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modalOpen)closeModal()});renderAll();
+</script>
+</body></html>

@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-05",
+  "source": "https://maisesports.com.br/contratos/league-of-legends",
+  "xyno": {
+    "displayYear": 2027,
+    "owner": "Keyd Stars",
+    "loanTeam": "LOUD",
+    "yearSource": "https://x.com/luisshowtana/status/2116216739079836116",
+    "publicListedEnd": "16/11/2026",
+    "note": "Contrato até 2027 reportado por Showtana em 30/10/2026. Data exata de término não informada; listagem anterior preservada como histórico."
+  },
+  "morttheus": {
+    "displayYear": 2028,
+    "owner": "Keyd Stars",
+    "loanTeam": "RED Canids",
+    "source": "https://www.sheepesports.com/en/articles/sources-brance-receives-offers-from-red-canids-and-fluxo-w7m-for-2027/en"
+  },
+  "marketCorrections": "market-player-updates.json"
+}
