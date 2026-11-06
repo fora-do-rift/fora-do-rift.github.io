@@ -1,4 +1,4 @@
-# Rift Mercado — CBLOL 2027
+# NEXO — Mercado CBLOL 2027
 
 Protótipo funcional offline de um portal de transferências do CBLOL, com três funcionalidades:
 
