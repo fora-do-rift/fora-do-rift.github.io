@@ -50,6 +50,7 @@
 .placeholderavatar{border-radius:8px;background:#0003;color:inherit;font-size:14px}
 /* Coaching staff rows */
 .stafficon{color:#c8aa6e}
+.teamtier{display:block;margin:0 auto 6px;font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}.teamtier.guest{color:var(--yellow)}
 .matrix tr.staffstart>th,.matrix tr.staffstart>td{border-top:3px solid var(--line)}
 #matrixBody tr:has(.stafficon)>td{height:48px}
 /* "Monte sua planilha" */
@@ -1723,7 +1724,7 @@ const showtanaRows=[
   // team, lane, player, status, block
   ['LOS','TOP','Zest','incerto','titular'],['LOS','JNG','Curse','confirmado','titular'],['LOS','ADC','Duduhh','confirmado','titular'],['LOS','SUP','Ackerman','incerto','titular'],
   ['Fluxo','TOP','Guigo','interesse','titular'],['Fluxo','JNG','CarioK','interesse','titular'],['Fluxo','MID','cody','encaminhado','titular'],['Fluxo','ADC','Brance','interesse','titular'],['Fluxo','SUP','Momochi','encaminhado','titular'],
-  ['FURIA','TOP','Feng','confirmado','titular'],['FURIA','JNG','Tatu','confirmado','titular'],['FURIA','MID','Tutsz','confirmado','titular'],['FURIA','ADC','Ayu','encaminhado','titular'],['FURIA','SUP','JoJo','incerto','titular'],
+  ['FURIA','TOP','Feng','interesse','titular'],['FURIA','JNG','Tatu','confirmado','titular'],['FURIA','MID','Tutsz','confirmado','titular'],['FURIA','ADC','Ayu','encaminhado','titular'],['FURIA','SUP','JoJo','incerto','titular'],
   ['FURIA','TOP','Xyno','interesse','opcao'],['FURIA','SUP','frosty','interesse','opcao'],
   ['RED Canids','TOP','zynts','confirmado','titular'],['RED Canids','JNG','STEPZ','incerto','titular'],['RED Canids','MID','Fuuu','incerto','titular'],['RED Canids','ADC','Brance','interesse','titular'],['RED Canids','SUP','Manel','incerto','titular'],
   ['RED Canids','JNG','Bwipo','interesse','opcao'],['RED Canids','MID','OMON','interesse','opcao'],['RED Canids','MID','Mireu','interesse','opcao'],['RED Canids','SUP','Zoelys','interesse','opcao'],['RED Canids','SUP','Trymbi','interesse','opcao'],['RED Canids','SUP','JoJo','interesse','opcao'],
@@ -1898,7 +1899,9 @@ const staffIcons={
   ANALYST:'<path d="M3.5 20.5h17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><rect x="5" y="13" width="3.4" height="6" rx=".8" fill="currentColor"/><rect x="10.3" y="9" width="3.4" height="10" rx=".8" fill="currentColor"/><rect x="15.6" y="5" width="3.4" height="14" rx=".8" fill="currentColor"/>'
 };
 function rowHeader(row){const label=staffRows.find(r=>r[0]===row)?.[1]||row;return `<span class="lanecell">${laneIcon(row)}<span>${label}</span></span>`}
-function matrixHeadRow(teamList){return '<tr><th scope="col">LANE</th>'+teamList.map(team=>`<th scope="col"><span class="teamheading"><img class="teamlogo" src="${escapeHtml(teamLogos[team])}" alt="" width="24" height="24"><span class="teamname">${escapeHtml(team)}</span></span></th>`).join('')+'</tr>'}
+// CBLOL 2027 status per team: every team is a franchise except LOS, the guest team.
+const teamTier=team=>team==='LOS'?'Convidado':'Franquia';
+function matrixHeadRow(teamList){return '<tr><th scope="col">LANE</th>'+teamList.map(team=>`<th scope="col"><span class="teamtier${team==='LOS'?' guest':''}">${teamTier(team)}</span><span class="teamheading"><img class="teamlogo" src="${escapeHtml(teamLogos[team])}" alt="" width="24" height="24"><span class="teamname">${escapeHtml(team)}</span></span></th>`).join('')+'</tr>'}
 // One chip per player and team: the most recent record wins (later entries win ties), so market updates replace older reports.
 function matrixItems(team,lane){
   const latest=new Map();
