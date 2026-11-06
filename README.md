@@ -1,6 +1,6 @@
 # Fora do Rift — Mercado CBLOL 2027
 
-[Site](https://janela-cblol.github.io/fora-do-rift/) · [Repositório](https://github.com/janela-cblol/fora-do-rift)
+[Site](https://fora-do-rift.github.io/) · [Repositório](https://github.com/fora-do-rift/fora-do-rift.github.io)
 
 Protótipo funcional offline de um portal de transferências do CBLOL, com três funcionalidades:
 
