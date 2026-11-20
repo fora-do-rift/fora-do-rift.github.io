@@ -26,7 +26,7 @@ Abra `index.html` em um navegador moderno. Não requer instalação nem servidor
 - Notícias e fontes não se atualizam automaticamente.
 - O status de residência competitiva foi inspirado nos registros de 2026 e precisará de validação para 2027 (nacionalidade não é igual à residência competitiva).
 - Alguns times e jogadores são apenas um recorte da base inicial, e não uma lista exaustiva de elencos ou rumores.
-- Dados de mercado consultados em 5 de novembro de 2026.
+- Dados de mercado consultados em 5 de novembro de 2026 e atualizados em 20 de novembro de 2026.
 
 ## Próxima etapa para produção
 
